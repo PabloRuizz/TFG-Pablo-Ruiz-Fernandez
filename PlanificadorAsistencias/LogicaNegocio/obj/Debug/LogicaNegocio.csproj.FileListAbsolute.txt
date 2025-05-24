@@ -1,0 +1,11 @@
+C:\Users\PABLO\Desktop\TFG II\TFG-Pablo-Ruiz-Fernandez\PlanificadorAsistencias\LogicaNegocio\bin\Debug\LogicaNegocio.dll
+C:\Users\PABLO\Desktop\TFG II\TFG-Pablo-Ruiz-Fernandez\PlanificadorAsistencias\LogicaNegocio\bin\Debug\LogicaNegocio.pdb
+C:\Users\PABLO\Desktop\TFG II\TFG-Pablo-Ruiz-Fernandez\PlanificadorAsistencias\LogicaNegocio\bin\Debug\Datos.dll
+C:\Users\PABLO\Desktop\TFG II\TFG-Pablo-Ruiz-Fernandez\PlanificadorAsistencias\LogicaNegocio\bin\Debug\Modelo.dll
+C:\Users\PABLO\Desktop\TFG II\TFG-Pablo-Ruiz-Fernandez\PlanificadorAsistencias\LogicaNegocio\bin\Debug\Datos.pdb
+C:\Users\PABLO\Desktop\TFG II\TFG-Pablo-Ruiz-Fernandez\PlanificadorAsistencias\LogicaNegocio\bin\Debug\Modelo.pdb
+C:\Users\PABLO\Desktop\TFG II\TFG-Pablo-Ruiz-Fernandez\PlanificadorAsistencias\LogicaNegocio\obj\Debug\LogicaNegocio.csproj.AssemblyReference.cache
+C:\Users\PABLO\Desktop\TFG II\TFG-Pablo-Ruiz-Fernandez\PlanificadorAsistencias\LogicaNegocio\obj\Debug\LogicaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\PABLO\Desktop\TFG II\TFG-Pablo-Ruiz-Fernandez\PlanificadorAsistencias\LogicaNegocio\obj\Debug\LogicaNe.53575492.Up2Date
+C:\Users\PABLO\Desktop\TFG II\TFG-Pablo-Ruiz-Fernandez\PlanificadorAsistencias\LogicaNegocio\obj\Debug\LogicaNegocio.dll
+C:\Users\PABLO\Desktop\TFG II\TFG-Pablo-Ruiz-Fernandez\PlanificadorAsistencias\LogicaNegocio\obj\Debug\LogicaNegocio.pdb

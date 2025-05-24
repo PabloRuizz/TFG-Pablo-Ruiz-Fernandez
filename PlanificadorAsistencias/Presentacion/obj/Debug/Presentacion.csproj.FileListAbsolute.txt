@@ -1,0 +1,15 @@
+C:\Users\PABLO\Desktop\TFG II\TFG-Pablo-Ruiz-Fernandez\PlanificadorAsistencias\Presentacion\bin\Debug\Presentacion.exe.config
+C:\Users\PABLO\Desktop\TFG II\TFG-Pablo-Ruiz-Fernandez\PlanificadorAsistencias\Presentacion\bin\Debug\Presentacion.exe
+C:\Users\PABLO\Desktop\TFG II\TFG-Pablo-Ruiz-Fernandez\PlanificadorAsistencias\Presentacion\bin\Debug\Presentacion.pdb
+C:\Users\PABLO\Desktop\TFG II\TFG-Pablo-Ruiz-Fernandez\PlanificadorAsistencias\Presentacion\bin\Debug\LogicaNegocio.dll
+C:\Users\PABLO\Desktop\TFG II\TFG-Pablo-Ruiz-Fernandez\PlanificadorAsistencias\Presentacion\bin\Debug\Modelo.dll
+C:\Users\PABLO\Desktop\TFG II\TFG-Pablo-Ruiz-Fernandez\PlanificadorAsistencias\Presentacion\bin\Debug\LogicaNegocio.pdb
+C:\Users\PABLO\Desktop\TFG II\TFG-Pablo-Ruiz-Fernandez\PlanificadorAsistencias\Presentacion\bin\Debug\Modelo.pdb
+C:\Users\PABLO\Desktop\TFG II\TFG-Pablo-Ruiz-Fernandez\PlanificadorAsistencias\Presentacion\obj\Debug\Presentacion.csproj.AssemblyReference.cache
+C:\Users\PABLO\Desktop\TFG II\TFG-Pablo-Ruiz-Fernandez\PlanificadorAsistencias\Presentacion\obj\Debug\Presentacion.FrmCrearOperario.resources
+C:\Users\PABLO\Desktop\TFG II\TFG-Pablo-Ruiz-Fernandez\PlanificadorAsistencias\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
+C:\Users\PABLO\Desktop\TFG II\TFG-Pablo-Ruiz-Fernandez\PlanificadorAsistencias\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.cache
+C:\Users\PABLO\Desktop\TFG II\TFG-Pablo-Ruiz-Fernandez\PlanificadorAsistencias\Presentacion\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\PABLO\Desktop\TFG II\TFG-Pablo-Ruiz-Fernandez\PlanificadorAsistencias\Presentacion\obj\Debug\Presenta.BC77CD05.Up2Date
+C:\Users\PABLO\Desktop\TFG II\TFG-Pablo-Ruiz-Fernandez\PlanificadorAsistencias\Presentacion\obj\Debug\Presentacion.exe
+C:\Users\PABLO\Desktop\TFG II\TFG-Pablo-Ruiz-Fernandez\PlanificadorAsistencias\Presentacion\obj\Debug\Presentacion.pdb

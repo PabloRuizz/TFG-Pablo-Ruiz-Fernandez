@@ -1,0 +1,23 @@
+[
+  {
+    "Name": "Nuevo perfil",
+    "Projects": [
+      {
+        "Path": "Presentacion\\Presentacion.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "LogicaNegocio\\LogicaNegocio.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Modelo\\Modelo.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Datos\\Datos.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

@@ -1,0 +1,11 @@
+﻿################################################################################
+# Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
+################################################################################
+
+/PlanificadorAsistencias/.vs/PlanificadorAsistencias
+/PlanificadorAsistencias/Datos/.vs
+/PlanificadorAsistencias/Datos/bin/Debug
+/PlanificadorAsistencias/Datos/obj/Debug
+/PlanificadorAsistencias/LogicaNegocio/bin/Debug
+/PlanificadorAsistencias/Modelo/bin/Debug
+/PlanificadorAsistencias/Presentacion/bin/Debug

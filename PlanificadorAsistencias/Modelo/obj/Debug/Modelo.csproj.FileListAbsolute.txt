@@ -1,0 +1,6 @@
+C:\Users\PABLO\Desktop\TFG II\TFG-Pablo-Ruiz-Fernandez\PlanificadorAsistencias\Modelo\bin\Debug\Modelo.dll
+C:\Users\PABLO\Desktop\TFG II\TFG-Pablo-Ruiz-Fernandez\PlanificadorAsistencias\Modelo\bin\Debug\Modelo.pdb
+C:\Users\PABLO\Desktop\TFG II\TFG-Pablo-Ruiz-Fernandez\PlanificadorAsistencias\Modelo\obj\Debug\Modelo.csproj.AssemblyReference.cache
+C:\Users\PABLO\Desktop\TFG II\TFG-Pablo-Ruiz-Fernandez\PlanificadorAsistencias\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
+C:\Users\PABLO\Desktop\TFG II\TFG-Pablo-Ruiz-Fernandez\PlanificadorAsistencias\Modelo\obj\Debug\Modelo.dll
+C:\Users\PABLO\Desktop\TFG II\TFG-Pablo-Ruiz-Fernandez\PlanificadorAsistencias\Modelo\obj\Debug\Modelo.pdb

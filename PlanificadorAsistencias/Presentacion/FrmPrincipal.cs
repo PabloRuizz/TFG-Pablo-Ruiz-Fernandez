@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LogicaNegocio;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -16,5 +17,14 @@ namespace Presentacion
         {
             InitializeComponent();
         }
+
+        private ControladorOperario controlador = new ControladorOperario();
+
+        private void btnNuevoOperario_Click(object sender, EventArgs e)
+        {
+            FrmCrearOperario form = new FrmCrearOperario(controlador);
+            form.ShowDialog();
+        }
+
     }
 }
