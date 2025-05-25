@@ -12,5 +12,7 @@ namespace Modelo
         public string Nombre { get; set; }
         public bool Disponible { get; set; }
         public List<string> Habilidades { get; set; } = new List<string>();
+        public Vehiculo VehiculoAsignado { get; set; }
+
     }
 }

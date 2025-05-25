@@ -13,3 +13,4 @@ C:\Users\PABLO\Desktop\TFG II\TFG-Pablo-Ruiz-Fernandez\PlanificadorAsistencias\P
 C:\Users\PABLO\Desktop\TFG II\TFG-Pablo-Ruiz-Fernandez\PlanificadorAsistencias\Presentacion\obj\Debug\Presenta.BC77CD05.Up2Date
 C:\Users\PABLO\Desktop\TFG II\TFG-Pablo-Ruiz-Fernandez\PlanificadorAsistencias\Presentacion\obj\Debug\Presentacion.exe
 C:\Users\PABLO\Desktop\TFG II\TFG-Pablo-Ruiz-Fernandez\PlanificadorAsistencias\Presentacion\obj\Debug\Presentacion.pdb
+C:\Users\PABLO\Desktop\TFG II\TFG-Pablo-Ruiz-Fernandez\PlanificadorAsistencias\Presentacion\obj\Debug\Presentacion.FrmCrearVehiculo.resources

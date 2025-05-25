@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace Modelo
 {
-    internal class Vehiculo
+    public class Vehiculo
     {
+        public int Id { get; set; }
+        public string Matricula { get; set; }
+        public string Tipo { get; set; }
+        public int Capacidad { get; set; }
+        public bool Disponible { get; set; }
     }
 }
