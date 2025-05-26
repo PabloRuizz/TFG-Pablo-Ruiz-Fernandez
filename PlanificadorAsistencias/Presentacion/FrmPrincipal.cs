@@ -13,8 +13,8 @@ namespace Presentacion
 {
     public partial class FrmPrincipal : Form
     {
-        private ControladorOperario controladorOperario;
-        private ControladorVehiculo controladorVehiculo;
+        private ControladorOperario controladorOperario = new ControladorOperario();
+        private ControladorVehiculo controladorVehiculo = new ControladorVehiculo();
         private ControladorOrdenes controladorOrdenes = new ControladorOrdenes();
 
         public FrmPrincipal()
@@ -24,8 +24,6 @@ namespace Presentacion
             controladorOperario = new ControladorOperario();
             controladorVehiculo = new ControladorVehiculo();
         }
-
-        private ControladorOperario controlador = new ControladorOperario();
 
         private void btnCrearOperario_Click(object sender, EventArgs e)
         {

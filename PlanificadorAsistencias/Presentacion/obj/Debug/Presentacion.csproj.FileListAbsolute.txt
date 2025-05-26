@@ -19,3 +19,5 @@ C:\Users\PABLO\Desktop\TFG II\TFG-Pablo-Ruiz-Fernandez\PlanificadorAsistencias\P
 C:\Users\PABLO\Desktop\TFG II\TFG-Pablo-Ruiz-Fernandez\PlanificadorAsistencias\Presentacion\obj\Debug\Presentacion.FrmSeleccionarRecursos.resources
 C:\Users\PABLO\Desktop\TFG II\TFG-Pablo-Ruiz-Fernandez\PlanificadorAsistencias\Presentacion\obj\Debug\Presentacion.FrmVerOrdenes.resources
 C:\Users\PABLO\Desktop\TFG II\TFG-Pablo-Ruiz-Fernandez\PlanificadorAsistencias\Presentacion\obj\Debug\Presentacion.FrmPrincipal.resources
+C:\Users\PABLO\Desktop\TFG II\TFG-Pablo-Ruiz-Fernandez\PlanificadorAsistencias\Presentacion\bin\Debug\Datos.dll
+C:\Users\PABLO\Desktop\TFG II\TFG-Pablo-Ruiz-Fernandez\PlanificadorAsistencias\Presentacion\bin\Debug\Datos.pdb

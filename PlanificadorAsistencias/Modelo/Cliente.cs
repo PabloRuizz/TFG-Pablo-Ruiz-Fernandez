@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace Modelo
 {
+    [Serializable]
+
     public class Cliente
     {
         public int Id { get; set; }

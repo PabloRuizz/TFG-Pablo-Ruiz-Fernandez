@@ -11,24 +11,33 @@ namespace Datos
 {
     public static class GestorDatos
     {
-        public static void Guardar<T>(List<T> datos, string rutaArchivo)
+        private static readonly string CarpetaBase = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "DatosArchivos");
+
+        public static void Guardar<T>(List<T> datos, string nombreArchivo)
         {
-            XmlSerializer serializer = new XmlSerializer(typeof(List<T>));
-            using (TextWriter writer = new StreamWriter(rutaArchivo))
+            if (!Directory.Exists(CarpetaBase))
+                Directory.CreateDirectory(CarpetaBase);
+
+            string rutaCompleta = Path.Combine(CarpetaBase, nombreArchivo);
+
+            using (FileStream fs = new FileStream(rutaCompleta, FileMode.Create))
             {
-                serializer.Serialize(writer, datos);
+                XmlSerializer serializer = new XmlSerializer(typeof(List<T>));
+                serializer.Serialize(fs, datos);
             }
         }
 
-        public static List<T> Cargar<T>(string rutaArchivo)
+        public static List<T> Cargar<T>(string nombreArchivo)
         {
-            if (!File.Exists(rutaArchivo))
+            string rutaCompleta = Path.Combine(CarpetaBase, nombreArchivo);
+
+            if (!File.Exists(rutaCompleta))
                 return new List<T>();
 
-            XmlSerializer serializer = new XmlSerializer(typeof(List<T>));
-            using (TextReader reader = new StreamReader(rutaArchivo))
+            using (FileStream fs = new FileStream(rutaCompleta, FileMode.Open))
             {
-                return (List<T>)serializer.Deserialize(reader);
+                XmlSerializer serializer = new XmlSerializer(typeof(List<T>));
+                return (List<T>)serializer.Deserialize(fs);
             }
         }
     }

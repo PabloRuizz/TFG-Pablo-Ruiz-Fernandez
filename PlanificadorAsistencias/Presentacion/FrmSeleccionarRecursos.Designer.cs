@@ -101,7 +101,7 @@
             this.Controls.Add(this.label1);
             this.Name = "FrmSeleccionarRecursos";
             this.Text = "Form4";
-            this.Load += new System.EventHandler(this.FrmSeleccionarRecursos_Load_1);
+            this.Load += new System.EventHandler(this.FrmSeleccionarRecursos_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

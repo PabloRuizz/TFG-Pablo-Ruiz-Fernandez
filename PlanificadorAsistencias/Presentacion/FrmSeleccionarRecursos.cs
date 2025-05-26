@@ -77,10 +77,5 @@ namespace Presentacion
             MessageBox.Show("Recursos disponibles guardados.");
             this.Close();
         }
-
-        private void FrmSeleccionarRecursos_Load_1(object sender, EventArgs e)
-        {
-
-        }
     }
 }

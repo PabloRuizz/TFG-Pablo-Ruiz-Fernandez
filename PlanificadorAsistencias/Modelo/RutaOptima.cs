@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Modelo
 {
+    [Serializable]
     internal class RutaOptima
     {
     }

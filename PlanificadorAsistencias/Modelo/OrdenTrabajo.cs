@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Modelo
 {
+    [Serializable]
     public class OrdenTrabajo
     {
         public int Id { get; set; }
