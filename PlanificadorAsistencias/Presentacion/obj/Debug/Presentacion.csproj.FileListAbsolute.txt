@@ -14,3 +14,8 @@ C:\Users\PABLO\Desktop\TFG II\TFG-Pablo-Ruiz-Fernandez\PlanificadorAsistencias\P
 C:\Users\PABLO\Desktop\TFG II\TFG-Pablo-Ruiz-Fernandez\PlanificadorAsistencias\Presentacion\obj\Debug\Presentacion.exe
 C:\Users\PABLO\Desktop\TFG II\TFG-Pablo-Ruiz-Fernandez\PlanificadorAsistencias\Presentacion\obj\Debug\Presentacion.pdb
 C:\Users\PABLO\Desktop\TFG II\TFG-Pablo-Ruiz-Fernandez\PlanificadorAsistencias\Presentacion\obj\Debug\Presentacion.FrmCrearVehiculo.resources
+C:\Users\PABLO\Desktop\TFG II\TFG-Pablo-Ruiz-Fernandez\PlanificadorAsistencias\Presentacion\obj\Debug\Presentacion.FrmGenerarPlanificacion.resources
+C:\Users\PABLO\Desktop\TFG II\TFG-Pablo-Ruiz-Fernandez\PlanificadorAsistencias\Presentacion\obj\Debug\Presentacion.FrmRegistrarOrdenes.resources
+C:\Users\PABLO\Desktop\TFG II\TFG-Pablo-Ruiz-Fernandez\PlanificadorAsistencias\Presentacion\obj\Debug\Presentacion.FrmSeleccionarRecursos.resources
+C:\Users\PABLO\Desktop\TFG II\TFG-Pablo-Ruiz-Fernandez\PlanificadorAsistencias\Presentacion\obj\Debug\Presentacion.FrmVerOrdenes.resources
+C:\Users\PABLO\Desktop\TFG II\TFG-Pablo-Ruiz-Fernandez\PlanificadorAsistencias\Presentacion\obj\Debug\Presentacion.FrmPrincipal.resources

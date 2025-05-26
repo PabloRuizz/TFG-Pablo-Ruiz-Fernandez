@@ -61,9 +61,9 @@
             this.groupBox1.Controls.Add(this.chkIntalaciones);
             this.groupBox1.Controls.Add(this.chkImpresion);
             this.groupBox1.Controls.Add(this.chkImagen);
-            this.groupBox1.Location = new System.Drawing.Point(296, 137);
+            this.groupBox1.Location = new System.Drawing.Point(290, 137);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(200, 119);
+            this.groupBox1.Size = new System.Drawing.Size(200, 126);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Habilidades";
@@ -110,12 +110,13 @@
             // 
             // btnGuardar
             // 
-            this.btnGuardar.Location = new System.Drawing.Point(368, 273);
+            this.btnGuardar.Location = new System.Drawing.Point(337, 285);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(83, 23);
             this.btnGuardar.TabIndex = 3;
             this.btnGuardar.Text = "Guardar";
             this.btnGuardar.UseVisualStyleBackColor = true;
+            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
             // FrmCrearOperario
             // 

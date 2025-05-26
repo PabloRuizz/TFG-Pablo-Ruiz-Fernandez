@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Planificador.cs" />
     <Compile Include="ControladorOperario.cs" />
     <Compile Include="ControladorVehiculo.cs" />
     <Compile Include="ControladorOrdenes.cs" />

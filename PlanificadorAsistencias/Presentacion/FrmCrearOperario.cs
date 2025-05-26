@@ -52,5 +52,7 @@ namespace Presentacion
             MessageBox.Show("Operario creado correctamente.");
             this.Close(); // O limpia los campos si prefieres dejar el form abierto
         }
+
+
     }
 }

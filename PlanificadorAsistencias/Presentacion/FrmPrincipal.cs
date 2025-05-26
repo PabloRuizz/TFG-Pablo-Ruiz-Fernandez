@@ -27,23 +27,16 @@ namespace Presentacion
 
         private ControladorOperario controlador = new ControladorOperario();
 
-        private void btnNuevoOperario_Click(object sender, EventArgs e)
+        private void btnCrearOperario_Click(object sender, EventArgs e)
         {
-            FrmCrearOperario form = new FrmCrearOperario(controlador);
+            FrmCrearOperario form = new FrmCrearOperario(controladorOperario);
             form.ShowDialog();
         }
-
 
         private void btnCrearVehiculo_Click(object sender, EventArgs e)
         {
             FrmCrearVehiculo form = new FrmCrearVehiculo(controladorVehiculo);
             form.ShowDialog();
-        }
-
-        private void btnSeleccionarRecursos_Click(object sender, EventArgs e)
-        {
-            FrmSeleccionarRecursos frm = new FrmSeleccionarRecursos(controladorOperario, controladorVehiculo);
-            frm.ShowDialog();
         }
 
         private void btnRegistrarOrden_Click(object sender, EventArgs e)
@@ -52,11 +45,30 @@ namespace Presentacion
             form.ShowDialog();
         }
 
+        private void btnRecursos_Click(object sender, EventArgs e)
+        {
+            FrmSeleccionarRecursos form = new FrmSeleccionarRecursos(controladorOperario, controladorVehiculo);
+            form.ShowDialog();
+        }
+
         private void btnVerOrdenes_Click(object sender, EventArgs e)
         {
-            FrmVerOrdenes frm = new FrmVerOrdenes(controladorOrdenes);
-            frm.ShowDialog();
+            FrmVerOrdenes form = new FrmVerOrdenes(controladorOrdenes);
+            form.ShowDialog();
         }
+
+        private void btnPlanificar_Click(object sender, EventArgs e)
+        {
+            FrmGenerarPlanificacion form = new FrmGenerarPlanificacion(controladorOperario, controladorOrdenes);
+            form.ShowDialog();
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+
 
     }
 }

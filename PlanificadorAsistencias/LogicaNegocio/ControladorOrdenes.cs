@@ -21,5 +21,20 @@ namespace LogicaNegocio
         {
             return listaOrdenes;
         }
+
+        public void EliminarOrden(int id)
+        {
+            var orden = listaOrdenes.FirstOrDefault(o => o.Id == id);
+            if (orden != null)
+            {
+                listaOrdenes.Remove(orden);
+            }
+        }
+
+        public OrdenTrabajo ObtenerOrdenPorId(int id)
+        {
+            return listaOrdenes.FirstOrDefault(o => o.Id == id);
+        }
+
     }
 }

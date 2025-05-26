@@ -33,6 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -46,6 +47,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FmrGenerarPlanificacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FmrGenerarPlanificacion.Designer.cs">
+      <DependentUpon>FmrGenerarPlanificacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrincipal.Designer.cs">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmVerOrdenes.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -57,12 +70,6 @@
     </Compile>
     <Compile Include="FrmSeleccionarRecursos.Designer.cs">
       <DependentUpon>FrmSeleccionarRecursos.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FrmPrincipal.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmPrincipal.Designer.cs">
-      <DependentUpon>FrmPrincipal.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmCrearOperario.cs">
       <SubType>Form</SubType>
@@ -84,11 +91,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FmrGenerarPlanificacion.resx">
+      <DependentUpon>FmrGenerarPlanificacion.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmCrearOperario.resx">
       <DependentUpon>FrmCrearOperario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmCrearVehiculo.resx">
       <DependentUpon>FrmCrearVehiculo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrincipal.resx">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmRegistrarOrdenes.resx">
       <DependentUpon>FrmRegistrarOrdenes.cs</DependentUpon>
