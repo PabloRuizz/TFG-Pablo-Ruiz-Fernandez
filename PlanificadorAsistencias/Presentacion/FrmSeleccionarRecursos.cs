@@ -16,16 +16,35 @@ namespace Presentacion
     {
         private ControladorOperario controladorOperario;
         private ControladorVehiculo controladorVehiculo;
+        private ControladorAsignaciones controladorAsignaciones;
+
 
         private List<Operario> operarios;
         private List<Vehiculo> vehiculos;
 
-        public FrmSeleccionarRecursos(ControladorOperario opCtrl, ControladorVehiculo vehCtrl)
+        public FrmSeleccionarRecursos(ControladorOperario cop, ControladorVehiculo cv)
         {
             InitializeComponent();
-            controladorOperario = opCtrl;
-            controladorVehiculo = vehCtrl;
+            controladorOperario = cop;
+            controladorVehiculo = cv;
+            controladorAsignaciones = new ControladorAsignaciones();
         }
+
+        private void ActualizarLstAsignaciones()
+        {
+            lstAsignaciones.Items.Clear();
+
+            var todas = controladorAsignaciones.ObtenerTodas();
+            foreach (var asignacion in todas)
+            {
+                var op = operarios.FirstOrDefault(o => o.Id == asignacion.OperarioId);
+                var veh = vehiculos.FirstOrDefault(v => v.Id == asignacion.VehiculoId);
+
+                if (op != null && veh != null)
+                    lstAsignaciones.Items.Add($"{veh.Matricula} ({veh.Tipo}) → {op.Nombre}");
+            }
+        }
+
 
         private void FrmSeleccionarRecursos_Load(object sender, EventArgs e)
         {
@@ -45,6 +64,23 @@ namespace Presentacion
             {
                 cmbVehiculos.Items.Add($"{v.Matricula} - {v.Tipo}");
             }
+
+            lstAsignaciones.Items.Clear();
+
+            lstAsignaciones.Items.Clear();
+
+            foreach (var asignacion in controladorAsignaciones.ObtenerTodas())
+            {
+                var op = operarios.FirstOrDefault(o => o.Id == asignacion.OperarioId);
+                var veh = vehiculos.FirstOrDefault(v => v.Id == asignacion.VehiculoId);
+
+                if (op != null && veh != null)
+                {
+                    lstAsignaciones.Items.Add($"{veh.Matricula} ({veh.Tipo}) → {op.Nombre}");
+                }
+            }
+
+            ActualizarLstAsignaciones();
         }
 
         private void btnAsignar_Click(object sender, EventArgs e)
@@ -64,7 +100,19 @@ namespace Presentacion
             operario.VehiculoAsignado = vehiculo;
             vehiculo.Disponible = false;
 
+            // NUEVO: guardar la asignación en XML
+            controladorAsignaciones.AsignarVehiculo(operario.Id, vehiculo.Id);
+
             MessageBox.Show($"Vehículo asignado a {operario.Nombre}.");
+
+            // NUEVO: actualizar lista de asignaciones visibles
+            ActualizarLstAsignaciones();
+        }
+
+        private void btnEditarAsignaciones_Click(object sender, EventArgs e)
+        {
+            FrmEditarAsignaciones frm = new FrmEditarAsignaciones(controladorAsignaciones, controladorOperario, controladorVehiculo);
+            frm.ShowDialog();
         }
 
         private void btnGuardar_Click(object sender, EventArgs e)

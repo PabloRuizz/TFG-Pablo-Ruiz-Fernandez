@@ -30,7 +30,6 @@ namespace Presentacion
             {
                 "Imagen",
                 "Informatica",
-                "Blanca",
                 "Impresion",
                 "Instalacion"
             });

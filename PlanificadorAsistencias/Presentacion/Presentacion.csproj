@@ -53,6 +53,36 @@
     <Compile Include="FmrGenerarPlanificacion.Designer.cs">
       <DependentUpon>FmrGenerarPlanificacion.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmEditarAsignaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEditarAsignaciones.Designer.cs">
+      <DependentUpon>FrmEditarAsignaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEditarVehiculo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEditarVehiculo.Designer.cs">
+      <DependentUpon>FrmEditarVehiculo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEditarOperario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEditarOperario.Designer.cs">
+      <DependentUpon>FrmEditarOperario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGestionVehiculos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGestionVehiculos.Designer.cs">
+      <DependentUpon>FrmGestionVehiculos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGestionOperarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGestionOperarios.Designer.cs">
+      <DependentUpon>FrmGestionOperarios.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -94,11 +124,26 @@
     <EmbeddedResource Include="FmrGenerarPlanificacion.resx">
       <DependentUpon>FmrGenerarPlanificacion.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmEditarAsignaciones.resx">
+      <DependentUpon>FrmEditarAsignaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEditarOperario.resx">
+      <DependentUpon>FrmEditarOperario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEditarVehiculo.resx">
+      <DependentUpon>FrmEditarVehiculo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGestionVehiculos.resx">
+      <DependentUpon>FrmGestionVehiculos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmCrearOperario.resx">
       <DependentUpon>FrmCrearOperario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmCrearVehiculo.resx">
       <DependentUpon>FrmCrearVehiculo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGestionOperarios.resx">
+      <DependentUpon>FrmGestionOperarios.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmPrincipal.resx">
       <DependentUpon>FrmPrincipal.cs</DependentUpon>

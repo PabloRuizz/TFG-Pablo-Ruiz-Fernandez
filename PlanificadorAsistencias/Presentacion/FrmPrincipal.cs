@@ -61,6 +61,18 @@ namespace Presentacion
             form.ShowDialog();
         }
 
+        private void btnGestionOperarios_Click(object sender, EventArgs e)
+        {
+            FrmGestionOperarios frm = new FrmGestionOperarios(controladorOperario);
+            frm.ShowDialog();
+        }
+
+        private void btnGestionVehiculos_Click(object sender, EventArgs e)
+        {
+            FrmGestionVehiculos frm = new FrmGestionVehiculos(controladorVehiculo);
+            frm.ShowDialog();
+        }
+
         private void btnSalir_Click(object sender, EventArgs e)
         {
             this.Close();

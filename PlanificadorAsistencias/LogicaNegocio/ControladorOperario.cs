@@ -29,5 +29,26 @@ namespace LogicaNegocio
         {
             return listaOperarios;
         }
+
+        public void EliminarOperario(int id)
+        {
+            var op = listaOperarios.FirstOrDefault(o => o.Id == id);
+            if (op != null)
+            {
+                listaOperarios.Remove(op);
+                GestorDatos.Guardar(listaOperarios, ruta);
+            }
+        }
+
+        public Operario ObtenerOperarioPorId(int id)
+        {
+            return listaOperarios.FirstOrDefault(o => o.Id == id);
+        }
+
+        public void GuardarCambios()
+        {
+            GestorDatos.Guardar(listaOperarios, ruta);
+        }
+
     }
 }

@@ -35,6 +35,8 @@
             this.btnVerOrdenes = new System.Windows.Forms.Button();
             this.btnPlanificar = new System.Windows.Forms.Button();
             this.btnSalir = new System.Windows.Forms.Button();
+            this.btnGestionOperarios = new System.Windows.Forms.Button();
+            this.btnGestionVehiculos = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnCrearOperario
@@ -49,7 +51,7 @@
             // 
             // btnCrearVehiculo
             // 
-            this.btnCrearVehiculo.Location = new System.Drawing.Point(156, 105);
+            this.btnCrearVehiculo.Location = new System.Drawing.Point(156, 133);
             this.btnCrearVehiculo.Name = "btnCrearVehiculo";
             this.btnCrearVehiculo.Size = new System.Drawing.Size(92, 23);
             this.btnCrearVehiculo.TabIndex = 1;
@@ -59,7 +61,7 @@
             // 
             // btnRegistrarOrden
             // 
-            this.btnRegistrarOrden.Location = new System.Drawing.Point(156, 152);
+            this.btnRegistrarOrden.Location = new System.Drawing.Point(156, 218);
             this.btnRegistrarOrden.Name = "btnRegistrarOrden";
             this.btnRegistrarOrden.Size = new System.Drawing.Size(146, 23);
             this.btnRegistrarOrden.TabIndex = 2;
@@ -99,7 +101,7 @@
             // 
             // btnSalir
             // 
-            this.btnSalir.Location = new System.Drawing.Point(281, 240);
+            this.btnSalir.Location = new System.Drawing.Point(291, 288);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(75, 23);
             this.btnSalir.TabIndex = 6;
@@ -107,11 +109,33 @@
             this.btnSalir.UseVisualStyleBackColor = true;
             this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
+            // btnGestionOperarios
+            // 
+            this.btnGestionOperarios.Location = new System.Drawing.Point(191, 84);
+            this.btnGestionOperarios.Name = "btnGestionOperarios";
+            this.btnGestionOperarios.Size = new System.Drawing.Size(111, 23);
+            this.btnGestionOperarios.TabIndex = 7;
+            this.btnGestionOperarios.Text = "Gestionar Operarios\n";
+            this.btnGestionOperarios.UseVisualStyleBackColor = true;
+            this.btnGestionOperarios.Click += new System.EventHandler(this.btnGestionOperarios_Click);
+            // 
+            // btnGestionVehiculos
+            // 
+            this.btnGestionVehiculos.Location = new System.Drawing.Point(191, 162);
+            this.btnGestionVehiculos.Name = "btnGestionVehiculos";
+            this.btnGestionVehiculos.Size = new System.Drawing.Size(111, 23);
+            this.btnGestionVehiculos.TabIndex = 8;
+            this.btnGestionVehiculos.Text = "Gestionar Vehículos\n\n";
+            this.btnGestionVehiculos.UseVisualStyleBackColor = true;
+            this.btnGestionVehiculos.Click += new System.EventHandler(this.btnGestionVehiculos_Click);
+            // 
             // FrmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnGestionVehiculos);
+            this.Controls.Add(this.btnGestionOperarios);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnPlanificar);
             this.Controls.Add(this.btnVerOrdenes);
@@ -134,5 +158,7 @@
         private System.Windows.Forms.Button btnVerOrdenes;
         private System.Windows.Forms.Button btnPlanificar;
         private System.Windows.Forms.Button btnSalir;
+        private System.Windows.Forms.Button btnGestionOperarios;
+        private System.Windows.Forms.Button btnGestionVehiculos;
     }
 }

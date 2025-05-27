@@ -30,5 +30,25 @@ namespace LogicaNegocio
         {
             return listaVehiculos;
         }
+
+        public void EliminarVehiculo(int id)
+        {
+            var v = listaVehiculos.FirstOrDefault(x => x.Id == id);
+            if (v != null)
+            {
+                listaVehiculos.Remove(v);
+                GestorDatos.Guardar(listaVehiculos, ruta);
+            }
+        }
+
+        public Vehiculo ObtenerVehiculoPorId(int id)
+        {
+            return listaVehiculos.FirstOrDefault(v => v.Id == id);
+        }
+
+        public void GuardarCambios()
+        {
+            GestorDatos.Guardar(listaVehiculos, ruta);
+        }
     }
 }
