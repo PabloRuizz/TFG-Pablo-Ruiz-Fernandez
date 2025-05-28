@@ -8,7 +8,6 @@ C:\Users\PABLO\Desktop\TFG II\TFG-Pablo-Ruiz-Fernandez\PlanificadorAsistencias\P
 C:\Users\PABLO\Desktop\TFG II\TFG-Pablo-Ruiz-Fernandez\PlanificadorAsistencias\Presentacion\bin\Debug\Modelo.pdb
 C:\Users\PABLO\Desktop\TFG II\TFG-Pablo-Ruiz-Fernandez\PlanificadorAsistencias\Presentacion\bin\Debug\Datos.pdb
 C:\Users\PABLO\Desktop\TFG II\TFG-Pablo-Ruiz-Fernandez\PlanificadorAsistencias\Presentacion\obj\Debug\Presentacion.csproj.AssemblyReference.cache
-C:\Users\PABLO\Desktop\TFG II\TFG-Pablo-Ruiz-Fernandez\PlanificadorAsistencias\Presentacion\obj\Debug\Presentacion.FrmGenerarPlanificacion.resources
 C:\Users\PABLO\Desktop\TFG II\TFG-Pablo-Ruiz-Fernandez\PlanificadorAsistencias\Presentacion\obj\Debug\Presentacion.FrmEditarOperario.resources
 C:\Users\PABLO\Desktop\TFG II\TFG-Pablo-Ruiz-Fernandez\PlanificadorAsistencias\Presentacion\obj\Debug\Presentacion.FrmGestionVehiculos.resources
 C:\Users\PABLO\Desktop\TFG II\TFG-Pablo-Ruiz-Fernandez\PlanificadorAsistencias\Presentacion\obj\Debug\Presentacion.FrmCrearOperario.resources
@@ -26,3 +25,5 @@ C:\Users\PABLO\Desktop\TFG II\TFG-Pablo-Ruiz-Fernandez\PlanificadorAsistencias\P
 C:\Users\PABLO\Desktop\TFG II\TFG-Pablo-Ruiz-Fernandez\PlanificadorAsistencias\Presentacion\obj\Debug\Presentacion.pdb
 C:\Users\PABLO\Desktop\TFG II\TFG-Pablo-Ruiz-Fernandez\PlanificadorAsistencias\Presentacion\obj\Debug\Presentacion.FrmEditarVehiculo.resources
 C:\Users\PABLO\Desktop\TFG II\TFG-Pablo-Ruiz-Fernandez\PlanificadorAsistencias\Presentacion\obj\Debug\Presentacion.FrmEditarAsignaciones.resources
+C:\Users\PABLO\Desktop\TFG II\TFG-Pablo-Ruiz-Fernandez\PlanificadorAsistencias\Presentacion\obj\Debug\Presentacion.FrmEditarOrden.resources
+C:\Users\PABLO\Desktop\TFG II\TFG-Pablo-Ruiz-Fernandez\PlanificadorAsistencias\Presentacion\obj\Debug\Presentacion.FrmGenerarPlanificador.resources

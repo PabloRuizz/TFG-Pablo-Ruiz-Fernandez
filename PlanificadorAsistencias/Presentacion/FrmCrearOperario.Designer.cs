@@ -75,7 +75,7 @@
             this.chkInformatica.Name = "chkInformatica";
             this.chkInformatica.Size = new System.Drawing.Size(78, 17);
             this.chkInformatica.TabIndex = 3;
-            this.chkInformatica.Text = "Informatica";
+            this.chkInformatica.Text = "Informática";
             this.chkInformatica.UseVisualStyleBackColor = true;
             // 
             // chkIntalaciones
@@ -95,7 +95,7 @@
             this.chkImpresion.Name = "chkImpresion";
             this.chkImpresion.Size = new System.Drawing.Size(71, 17);
             this.chkImpresion.TabIndex = 1;
-            this.chkImpresion.Text = "Impresion";
+            this.chkImpresion.Text = "Impresión";
             this.chkImpresion.UseVisualStyleBackColor = true;
             // 
             // chkImagen

@@ -1,6 +1,6 @@
 ﻿namespace Presentacion
 {
-    partial class FrmGenerarPlanificacion
+    partial class FrmGenerarPlanificador
     {
         /// <summary>
         /// Required designer variable.
@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.txtResultado = new System.Windows.Forms.TextBox();
-            this.btnCerrar = new System.Windows.Forms.Button();
-            this.btnExportarCsv = new System.Windows.Forms.Button();
+            this.btnGenerar = new System.Windows.Forms.Button();
+            this.lstResultados = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // txtResultado
@@ -43,34 +43,36 @@
             this.txtResultado.Size = new System.Drawing.Size(800, 450);
             this.txtResultado.TabIndex = 0;
             // 
-            // btnCerrar
+            // btnGenerar
             // 
-            this.btnCerrar.Location = new System.Drawing.Point(213, 334);
-            this.btnCerrar.Name = "btnCerrar";
-            this.btnCerrar.Size = new System.Drawing.Size(75, 23);
-            this.btnCerrar.TabIndex = 1;
-            this.btnCerrar.Text = "Cerrar";
-            this.btnCerrar.UseVisualStyleBackColor = true;
+            this.btnGenerar.Location = new System.Drawing.Point(106, 65);
+            this.btnGenerar.Name = "btnGenerar";
+            this.btnGenerar.Size = new System.Drawing.Size(184, 23);
+            this.btnGenerar.TabIndex = 1;
+            this.btnGenerar.Text = "Botón para ejecutar planificación";
+            this.btnGenerar.UseVisualStyleBackColor = true;
+            this.btnGenerar.Click += new System.EventHandler(this.btnGenerar_Click);
             // 
-            // btnExportarCsv
+            // lstResultados
             // 
-            this.btnExportarCsv.Location = new System.Drawing.Point(96, 334);
-            this.btnExportarCsv.Name = "btnExportarCsv";
-            this.btnExportarCsv.Size = new System.Drawing.Size(96, 23);
-            this.btnExportarCsv.TabIndex = 2;
-            this.btnExportarCsv.Text = "Exportar a CSV";
-            this.btnExportarCsv.UseVisualStyleBackColor = true;
+            this.lstResultados.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.lstResultados.FormattingEnabled = true;
+            this.lstResultados.Location = new System.Drawing.Point(0, 121);
+            this.lstResultados.Name = "lstResultados";
+            this.lstResultados.Size = new System.Drawing.Size(800, 329);
+            this.lstResultados.TabIndex = 2;
             // 
-            // FrmGenerarPlanificacion
+            // FrmGenerarPlanificador
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btnExportarCsv);
-            this.Controls.Add(this.btnCerrar);
+            this.Controls.Add(this.lstResultados);
+            this.Controls.Add(this.btnGenerar);
             this.Controls.Add(this.txtResultado);
-            this.Name = "FrmGenerarPlanificacion";
+            this.Name = "FrmGenerarPlanificador";
             this.Text = "Form6";
+            this.Load += new System.EventHandler(this.FrmGenerarPlanificador_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -79,7 +81,7 @@
         #endregion
 
         private System.Windows.Forms.TextBox txtResultado;
-        private System.Windows.Forms.Button btnCerrar;
-        private System.Windows.Forms.Button btnExportarCsv;
+        private System.Windows.Forms.Button btnGenerar;
+        private System.Windows.Forms.ListBox lstResultados;
     }
 }

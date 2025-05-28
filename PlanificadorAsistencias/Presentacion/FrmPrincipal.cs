@@ -13,9 +13,10 @@ namespace Presentacion
 {
     public partial class FrmPrincipal : Form
     {
-        private ControladorOperario controladorOperario = new ControladorOperario();
-        private ControladorVehiculo controladorVehiculo = new ControladorVehiculo();
-        private ControladorOrdenes controladorOrdenes = new ControladorOrdenes();
+        private ControladorOperario controladorOperario;
+        private ControladorVehiculo controladorVehiculo;
+        private ControladorOrdenes controladorOrdenes;
+        private ControladorAsignaciones controladorAsignaciones;
 
         public FrmPrincipal()
         {
@@ -23,6 +24,8 @@ namespace Presentacion
 
             controladorOperario = new ControladorOperario();
             controladorVehiculo = new ControladorVehiculo();
+            controladorOrdenes = new ControladorOrdenes();
+            controladorAsignaciones = new ControladorAsignaciones();
         }
 
         private void btnCrearOperario_Click(object sender, EventArgs e)
@@ -57,8 +60,8 @@ namespace Presentacion
 
         private void btnPlanificar_Click(object sender, EventArgs e)
         {
-            FrmGenerarPlanificacion form = new FrmGenerarPlanificacion(controladorOperario, controladorOrdenes);
-            form.ShowDialog();
+            FrmGenerarPlanificador frm = new FrmGenerarPlanificador(controladorOrdenes, controladorOperario, controladorAsignaciones);
+            frm.ShowDialog();
         }
 
         private void btnGestionOperarios_Click(object sender, EventArgs e)

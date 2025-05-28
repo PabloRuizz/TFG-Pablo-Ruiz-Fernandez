@@ -54,6 +54,7 @@
             this.btnCerrar.TabIndex = 1;
             this.btnCerrar.Text = "Cerrar";
             this.btnCerrar.UseVisualStyleBackColor = true;
+            this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
             // 
             // label1
             // 
@@ -79,6 +80,7 @@
             this.btnEliminar.TabIndex = 4;
             this.btnEliminar.Text = "Eliminar orden";
             this.btnEliminar.UseVisualStyleBackColor = true;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
             // btnEditar
             // 
@@ -88,6 +90,7 @@
             this.btnEditar.TabIndex = 5;
             this.btnEditar.Text = "Modificar orden";
             this.btnEditar.UseVisualStyleBackColor = true;
+            this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
             // 
             // FrmVerOrdenes
             // 
@@ -102,6 +105,7 @@
             this.Controls.Add(this.dgvOrdenes);
             this.Name = "FrmVerOrdenes";
             this.Text = "Form5";
+            this.Load += new System.EventHandler(this.FrmVerOrdenes_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvOrdenes)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

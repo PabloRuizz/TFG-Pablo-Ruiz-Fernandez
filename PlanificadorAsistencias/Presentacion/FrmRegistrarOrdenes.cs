@@ -29,26 +29,37 @@ namespace Presentacion
             cmbDispositivo.Items.AddRange(new string[]
             {
                 "Imagen",
-                "Informatica",
-                "Impresion",
-                "Instalacion"
+                "Impresión",
+                "Instalaciones",
+                "Informática"
             });
+
             cmbDispositivo.SelectedIndex = 0;
         }
 
         private void btnGuardar_Click(object sender, EventArgs e)
         {
+            string numeroOrden = txtNumeroOrden.Text.Trim();
             string nombreCliente = txtCliente.Text.Trim();
             string direccion = txtDireccion.Text.Trim();
-            string dispositivo = cmbDispositivo.SelectedItem.ToString();
-            string ubicacion = txtUbicacion.Text.Trim();
-            int prioridad = (int)nudPrioridad.Value;
+            string codigoPostal = txtCodigoPostal.Text.Trim();
+            string dispositivo = cmbDispositivo.SelectedItem?.ToString() ?? "";
+            string observaciones = txtObservaciones.Text.Trim();
             bool enGarantia = chkGarantia.Checked;
             DateTime fecha = dtpFecha.Value;
 
-            if (string.IsNullOrWhiteSpace(nombreCliente) || string.IsNullOrWhiteSpace(direccion))
+            if (string.IsNullOrWhiteSpace(numeroOrden) ||
+                string.IsNullOrWhiteSpace(nombreCliente) ||
+                string.IsNullOrWhiteSpace(direccion) ||
+                string.IsNullOrWhiteSpace(codigoPostal))
             {
-                MessageBox.Show("El nombre y dirección del cliente son obligatorios.");
+                MessageBox.Show("Los campos Número de orden, nombre, dirección y código postal son obligatorios.");
+                return;
+            }
+
+            if (controlador.NumeroOrdenExiste(numeroOrden))
+            {
+                MessageBox.Show("Ya existe una orden con ese número. Introduce uno diferente.");
                 return;
             }
 
@@ -61,12 +72,15 @@ namespace Presentacion
 
             OrdenTrabajo nuevaOrden = new OrdenTrabajo
             {
+                NumeroOrden = numeroOrden,
                 Cliente = cliente,
                 Estado = "Pendiente",
                 FechaAsignacion = fecha,
-                Prioridad = prioridad,
                 EnGarantia = enGarantia,
-                Ubicacion = ubicacion
+                Direccion = direccion,
+                CodigoPostal = codigoPostal,
+                TipoDispositivo = dispositivo,
+                Observaciones = observaciones
             };
 
             controlador.CrearOrden(nuevaOrden);
@@ -74,5 +88,6 @@ namespace Presentacion
             MessageBox.Show("Orden registrada correctamente.");
             this.Close();
         }
+
     }
 }

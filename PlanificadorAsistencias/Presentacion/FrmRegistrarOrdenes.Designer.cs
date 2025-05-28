@@ -34,15 +34,16 @@
             this.txtDireccion = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.cmbDispositivo = new System.Windows.Forms.ComboBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.txtUbicacion = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.nudPrioridad = new System.Windows.Forms.NumericUpDown();
             this.chkGarantia = new System.Windows.Forms.CheckBox();
             this.label6 = new System.Windows.Forms.Label();
             this.dtpFecha = new System.Windows.Forms.DateTimePicker();
             this.btnGuardar = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.nudPrioridad)).BeginInit();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txtCodigoPostal = new System.Windows.Forms.TextBox();
+            this.txtObservaciones = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.txtNumeroOrden = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -64,7 +65,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(174, 72);
+            this.label2.Location = new System.Drawing.Point(293, 20);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(52, 13);
             this.label2.TabIndex = 2;
@@ -72,7 +73,7 @@
             // 
             // txtDireccion
             // 
-            this.txtDireccion.Location = new System.Drawing.Point(177, 91);
+            this.txtDireccion.Location = new System.Drawing.Point(296, 39);
             this.txtDireccion.Name = "txtDireccion";
             this.txtDireccion.Size = new System.Drawing.Size(100, 20);
             this.txtDireccion.TabIndex = 3;
@@ -80,7 +81,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(174, 128);
+            this.label3.Location = new System.Drawing.Point(174, 134);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(58, 13);
             this.label3.TabIndex = 4;
@@ -91,66 +92,18 @@
             this.cmbDispositivo.FormattingEnabled = true;
             this.cmbDispositivo.Items.AddRange(new object[] {
             "Imagen",
-            "Informatica",
-            "Blanca",
-            "Impresion",
-            "Instalacion"});
-            this.cmbDispositivo.Location = new System.Drawing.Point(177, 151);
+            "Impresión",
+            "Instalaciones",
+            "Informática"});
+            this.cmbDispositivo.Location = new System.Drawing.Point(177, 150);
             this.cmbDispositivo.Name = "cmbDispositivo";
             this.cmbDispositivo.Size = new System.Drawing.Size(100, 21);
             this.cmbDispositivo.TabIndex = 5;
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(177, 190);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(55, 13);
-            this.label4.TabIndex = 6;
-            this.label4.Text = "Ubicación";
-            // 
-            // txtUbicacion
-            // 
-            this.txtUbicacion.Location = new System.Drawing.Point(177, 213);
-            this.txtUbicacion.Name = "txtUbicacion";
-            this.txtUbicacion.Size = new System.Drawing.Size(100, 20);
-            this.txtUbicacion.TabIndex = 7;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(178, 250);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(48, 13);
-            this.label5.TabIndex = 8;
-            this.label5.Text = "Prioridad";
-            // 
-            // nudPrioridad
-            // 
-            this.nudPrioridad.Location = new System.Drawing.Point(177, 275);
-            this.nudPrioridad.Maximum = new decimal(new int[] {
-            5,
-            0,
-            0,
-            0});
-            this.nudPrioridad.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.nudPrioridad.Name = "nudPrioridad";
-            this.nudPrioridad.Size = new System.Drawing.Size(120, 20);
-            this.nudPrioridad.TabIndex = 9;
-            this.nudPrioridad.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            // 
             // chkGarantia
             // 
             this.chkGarantia.AutoSize = true;
-            this.chkGarantia.Location = new System.Drawing.Point(180, 314);
+            this.chkGarantia.Location = new System.Drawing.Point(180, 196);
             this.chkGarantia.Name = "chkGarantia";
             this.chkGarantia.Size = new System.Drawing.Size(68, 17);
             this.chkGarantia.TabIndex = 10;
@@ -160,7 +113,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(178, 347);
+            this.label6.Location = new System.Drawing.Point(178, 229);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(37, 13);
             this.label6.TabIndex = 11;
@@ -168,33 +121,84 @@
             // 
             // dtpFecha
             // 
-            this.dtpFecha.Location = new System.Drawing.Point(177, 363);
+            this.dtpFecha.Location = new System.Drawing.Point(177, 245);
             this.dtpFecha.Name = "dtpFecha";
             this.dtpFecha.Size = new System.Drawing.Size(200, 20);
             this.dtpFecha.TabIndex = 12;
             // 
             // btnGuardar
             // 
-            this.btnGuardar.Location = new System.Drawing.Point(202, 404);
+            this.btnGuardar.Location = new System.Drawing.Point(202, 377);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(75, 23);
             this.btnGuardar.TabIndex = 13;
             this.btnGuardar.Text = "Guardar";
             this.btnGuardar.UseVisualStyleBackColor = true;
+            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(293, 72);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(71, 13);
+            this.label4.TabIndex = 14;
+            this.label4.Text = "Código postal";
+            // 
+            // txtCodigoPostal
+            // 
+            this.txtCodigoPostal.Location = new System.Drawing.Point(296, 91);
+            this.txtCodigoPostal.Name = "txtCodigoPostal";
+            this.txtCodigoPostal.Size = new System.Drawing.Size(100, 20);
+            this.txtCodigoPostal.TabIndex = 15;
+            // 
+            // txtObservaciones
+            // 
+            this.txtObservaciones.Location = new System.Drawing.Point(177, 322);
+            this.txtObservaciones.Name = "txtObservaciones";
+            this.txtObservaciones.Size = new System.Drawing.Size(238, 20);
+            this.txtObservaciones.TabIndex = 16;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(177, 306);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(78, 13);
+            this.label7.TabIndex = 17;
+            this.label7.Text = "Observaciones";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(174, 72);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(89, 13);
+            this.label5.TabIndex = 18;
+            this.label5.Text = "Número de orden";
+            // 
+            // txtNumeroOrden
+            // 
+            this.txtNumeroOrden.Location = new System.Drawing.Point(177, 91);
+            this.txtNumeroOrden.Name = "txtNumeroOrden";
+            this.txtNumeroOrden.Size = new System.Drawing.Size(100, 20);
+            this.txtNumeroOrden.TabIndex = 19;
             // 
             // FrmRegistrarOrdenes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 484);
+            this.Controls.Add(this.txtNumeroOrden);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.txtObservaciones);
+            this.Controls.Add(this.txtCodigoPostal);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.btnGuardar);
             this.Controls.Add(this.dtpFecha);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.chkGarantia);
-            this.Controls.Add(this.nudPrioridad);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.txtUbicacion);
-            this.Controls.Add(this.label4);
             this.Controls.Add(this.cmbDispositivo);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txtDireccion);
@@ -203,7 +207,6 @@
             this.Controls.Add(this.label1);
             this.Name = "FrmRegistrarOrdenes";
             this.Text = "Form4";
-            ((System.ComponentModel.ISupportInitialize)(this.nudPrioridad)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -217,13 +220,15 @@
         private System.Windows.Forms.TextBox txtDireccion;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.ComboBox cmbDispositivo;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox txtUbicacion;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.NumericUpDown nudPrioridad;
         private System.Windows.Forms.CheckBox chkGarantia;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.DateTimePicker dtpFecha;
         private System.Windows.Forms.Button btnGuardar;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox txtCodigoPostal;
+        private System.Windows.Forms.TextBox txtObservaciones;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox txtNumeroOrden;
     }
 }

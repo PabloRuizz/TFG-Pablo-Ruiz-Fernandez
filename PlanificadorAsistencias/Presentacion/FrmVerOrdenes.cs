@@ -37,14 +37,14 @@ namespace Presentacion
             dgvOrdenes.DataSource = ordenesOriginal.Select(o => new
             {
                 o.Id,
+                o.NumeroOrden, 
                 Cliente = o.Cliente.Nombre,
-                Dirección = o.Cliente.Direccion,
-                Dispositivo = o.Cliente.TipoDispositivo,
-                o.FechaAsignacion,
-                o.Prioridad,
-                Garantía = o.EnGarantia ? "Sí" : "No",
+                Dirección = o.Direccion,
+                o.CodigoPostal,
+                o.TipoDispositivo,
                 o.Estado,
-                o.Ubicacion
+                Garantía = o.EnGarantia ? "Sí" : "No",
+                o.FechaAsignacion
             }).ToList();
         }
 
@@ -56,7 +56,7 @@ namespace Presentacion
                 o.Cliente.Nombre.ToLower().Contains(filtro) ||
                 o.Cliente.Direccion.ToLower().Contains(filtro) ||
                 o.Cliente.TipoDispositivo.ToLower().Contains(filtro) ||
-                o.Ubicacion.ToLower().Contains(filtro)).ToList();
+                o.CodigoPostal.ToLower().Contains(filtro)).ToList();
 
             dgvOrdenes.DataSource = filtradas.Select(o => new
             {
@@ -65,10 +65,9 @@ namespace Presentacion
                 Dirección = o.Cliente.Direccion,
                 Dispositivo = o.Cliente.TipoDispositivo,
                 o.FechaAsignacion,
-                o.Prioridad,
                 Garantía = o.EnGarantia ? "Sí" : "No",
                 o.Estado,
-                o.Ubicacion
+                o.CodigoPostal
             }).ToList();
         }
 
@@ -99,12 +98,11 @@ namespace Presentacion
 
             if (orden != null)
             {
-                string nuevoEstado = Microsoft.VisualBasic.Interaction.InputBox("Nuevo estado:", "Modificar orden", orden.Estado);
-                if (!string.IsNullOrWhiteSpace(nuevoEstado))
-                {
-                    orden.Estado = nuevoEstado;
-                    CargarOrdenes();
-                }
+                FrmEditarOrden frm = new FrmEditarOrden(orden);
+                frm.ShowDialog();
+
+                controlador.EditarOrden(orden); 
+                CargarOrdenes(); 
             }
         }
 
