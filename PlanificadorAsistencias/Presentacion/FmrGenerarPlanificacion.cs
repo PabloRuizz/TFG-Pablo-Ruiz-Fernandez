@@ -4,6 +4,7 @@ using System.Linq;
 using System.Windows.Forms;
 using Modelo;
 using LogicaNegocio;
+using static Presentacion.CustomUI;
 
 namespace Presentacion
 {
@@ -20,6 +21,7 @@ namespace Presentacion
             ControladorAsignaciones asignaciones)
         {
             InitializeComponent();
+            CustomUI.LoadDefaultStyle(this);
             controladorOrdenes = ordenes;
             controladorOperario = operarios;
             controladorAsignaciones = asignaciones;

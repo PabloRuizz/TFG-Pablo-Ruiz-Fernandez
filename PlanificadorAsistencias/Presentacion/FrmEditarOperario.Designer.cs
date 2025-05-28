@@ -38,7 +38,7 @@
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(162, 74);
+            this.txtNombre.Location = new System.Drawing.Point(113, 74);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(100, 20);
             this.txtNombre.TabIndex = 0;
@@ -46,7 +46,7 @@
             // chkImagen
             // 
             this.chkImagen.AutoSize = true;
-            this.chkImagen.Location = new System.Drawing.Point(171, 128);
+            this.chkImagen.Location = new System.Drawing.Point(122, 128);
             this.chkImagen.Name = "chkImagen";
             this.chkImagen.Size = new System.Drawing.Size(61, 17);
             this.chkImagen.TabIndex = 1;
@@ -56,7 +56,7 @@
             // chkImpresion
             // 
             this.chkImpresion.AutoSize = true;
-            this.chkImpresion.Location = new System.Drawing.Point(171, 151);
+            this.chkImpresion.Location = new System.Drawing.Point(122, 151);
             this.chkImpresion.Name = "chkImpresion";
             this.chkImpresion.Size = new System.Drawing.Size(71, 17);
             this.chkImpresion.TabIndex = 2;
@@ -66,7 +66,7 @@
             // chkInstalaciones
             // 
             this.chkInstalaciones.AutoSize = true;
-            this.chkInstalaciones.Location = new System.Drawing.Point(171, 174);
+            this.chkInstalaciones.Location = new System.Drawing.Point(122, 174);
             this.chkInstalaciones.Name = "chkInstalaciones";
             this.chkInstalaciones.Size = new System.Drawing.Size(88, 17);
             this.chkInstalaciones.TabIndex = 3;
@@ -76,7 +76,7 @@
             // chkInformatica
             // 
             this.chkInformatica.AutoSize = true;
-            this.chkInformatica.Location = new System.Drawing.Point(171, 197);
+            this.chkInformatica.Location = new System.Drawing.Point(122, 197);
             this.chkInformatica.Name = "chkInformatica";
             this.chkInformatica.Size = new System.Drawing.Size(78, 17);
             this.chkInformatica.TabIndex = 4;
@@ -85,7 +85,7 @@
             // 
             // btnGuardar
             // 
-            this.btnGuardar.Location = new System.Drawing.Point(158, 251);
+            this.btnGuardar.Location = new System.Drawing.Point(109, 251);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(104, 23);
             this.btnGuardar.TabIndex = 5;
@@ -97,7 +97,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(366, 366);
             this.Controls.Add(this.btnGuardar);
             this.Controls.Add(this.chkInformatica);
             this.Controls.Add(this.chkInstalaciones);

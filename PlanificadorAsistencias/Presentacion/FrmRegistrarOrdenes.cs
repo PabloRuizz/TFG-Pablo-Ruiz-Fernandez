@@ -11,6 +11,7 @@ using Modelo;
 using LogicaNegocio;
 using static System.Net.Mime.MediaTypeNames;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.TreeView;
+using static Presentacion.CustomUI;
 
 namespace Presentacion
 {
@@ -21,6 +22,7 @@ namespace Presentacion
         public FrmRegistrarOrdenes(ControladorOrdenes controlador)
         {
             InitializeComponent();
+            LoadDefaultStyle(this);
             this.controlador = controlador;
         }
 

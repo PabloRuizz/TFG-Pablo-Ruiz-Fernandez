@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Modelo;
+using static Presentacion.CustomUI;
+
 
 
 namespace Presentacion
@@ -19,6 +21,7 @@ namespace Presentacion
         public FrmEditarOperario(Operario op)
         {
             InitializeComponent();
+            CustomUI.LoadDefaultStyle(this);
             operario = op;
         }
 

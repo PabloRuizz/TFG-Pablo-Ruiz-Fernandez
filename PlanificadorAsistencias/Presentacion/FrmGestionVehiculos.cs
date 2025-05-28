@@ -9,6 +9,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using LogicaNegocio;
 using Modelo;
+using static Presentacion.CustomUI;
+
 
 namespace Presentacion
 {
@@ -20,6 +22,7 @@ namespace Presentacion
         public FrmGestionVehiculos(ControladorVehiculo ctrl)
         {
             InitializeComponent();
+            CustomUI.LoadDefaultStyle(this);
             controlador = ctrl;
         }
 

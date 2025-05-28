@@ -40,7 +40,7 @@
             this.txtResultado.Multiline = true;
             this.txtResultado.Name = "txtResultado";
             this.txtResultado.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtResultado.Size = new System.Drawing.Size(800, 450);
+            this.txtResultado.Size = new System.Drawing.Size(690, 450);
             this.txtResultado.TabIndex = 0;
             // 
             // btnGenerar
@@ -59,14 +59,14 @@
             this.lstResultados.FormattingEnabled = true;
             this.lstResultados.Location = new System.Drawing.Point(0, 121);
             this.lstResultados.Name = "lstResultados";
-            this.lstResultados.Size = new System.Drawing.Size(800, 329);
+            this.lstResultados.Size = new System.Drawing.Size(690, 329);
             this.lstResultados.TabIndex = 2;
             // 
             // FrmGenerarPlanificador
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(690, 450);
             this.Controls.Add(this.lstResultados);
             this.Controls.Add(this.btnGenerar);
             this.Controls.Add(this.txtResultado);

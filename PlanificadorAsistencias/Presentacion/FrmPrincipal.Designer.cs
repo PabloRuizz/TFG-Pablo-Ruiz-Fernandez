@@ -41,7 +41,7 @@
             // 
             // btnCrearOperario
             // 
-            this.btnCrearOperario.Location = new System.Drawing.Point(156, 55);
+            this.btnCrearOperario.Location = new System.Drawing.Point(102, 48);
             this.btnCrearOperario.Name = "btnCrearOperario";
             this.btnCrearOperario.Size = new System.Drawing.Size(92, 23);
             this.btnCrearOperario.TabIndex = 0;
@@ -51,7 +51,7 @@
             // 
             // btnCrearVehiculo
             // 
-            this.btnCrearVehiculo.Location = new System.Drawing.Point(156, 133);
+            this.btnCrearVehiculo.Location = new System.Drawing.Point(102, 126);
             this.btnCrearVehiculo.Name = "btnCrearVehiculo";
             this.btnCrearVehiculo.Size = new System.Drawing.Size(92, 23);
             this.btnCrearVehiculo.TabIndex = 1;
@@ -61,7 +61,7 @@
             // 
             // btnRegistrarOrden
             // 
-            this.btnRegistrarOrden.Location = new System.Drawing.Point(156, 218);
+            this.btnRegistrarOrden.Location = new System.Drawing.Point(102, 211);
             this.btnRegistrarOrden.Name = "btnRegistrarOrden";
             this.btnRegistrarOrden.Size = new System.Drawing.Size(146, 23);
             this.btnRegistrarOrden.TabIndex = 2;
@@ -71,7 +71,7 @@
             // 
             // btnRecursos
             // 
-            this.btnRecursos.Location = new System.Drawing.Point(369, 55);
+            this.btnRecursos.Location = new System.Drawing.Point(315, 48);
             this.btnRecursos.Name = "btnRecursos";
             this.btnRecursos.Size = new System.Drawing.Size(165, 23);
             this.btnRecursos.TabIndex = 3;
@@ -81,7 +81,7 @@
             // 
             // btnVerOrdenes
             // 
-            this.btnVerOrdenes.Location = new System.Drawing.Point(369, 105);
+            this.btnVerOrdenes.Location = new System.Drawing.Point(315, 98);
             this.btnVerOrdenes.Name = "btnVerOrdenes";
             this.btnVerOrdenes.Size = new System.Drawing.Size(165, 23);
             this.btnVerOrdenes.TabIndex = 4;
@@ -91,7 +91,7 @@
             // 
             // btnPlanificar
             // 
-            this.btnPlanificar.Location = new System.Drawing.Point(369, 152);
+            this.btnPlanificar.Location = new System.Drawing.Point(315, 145);
             this.btnPlanificar.Name = "btnPlanificar";
             this.btnPlanificar.Size = new System.Drawing.Size(165, 23);
             this.btnPlanificar.TabIndex = 5;
@@ -101,7 +101,7 @@
             // 
             // btnSalir
             // 
-            this.btnSalir.Location = new System.Drawing.Point(291, 288);
+            this.btnSalir.Location = new System.Drawing.Point(237, 281);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(75, 23);
             this.btnSalir.TabIndex = 6;
@@ -111,7 +111,7 @@
             // 
             // btnGestionOperarios
             // 
-            this.btnGestionOperarios.Location = new System.Drawing.Point(191, 84);
+            this.btnGestionOperarios.Location = new System.Drawing.Point(137, 77);
             this.btnGestionOperarios.Name = "btnGestionOperarios";
             this.btnGestionOperarios.Size = new System.Drawing.Size(111, 23);
             this.btnGestionOperarios.TabIndex = 7;
@@ -121,7 +121,7 @@
             // 
             // btnGestionVehiculos
             // 
-            this.btnGestionVehiculos.Location = new System.Drawing.Point(191, 162);
+            this.btnGestionVehiculos.Location = new System.Drawing.Point(137, 155);
             this.btnGestionVehiculos.Name = "btnGestionVehiculos";
             this.btnGestionVehiculos.Size = new System.Drawing.Size(111, 23);
             this.btnGestionVehiculos.TabIndex = 8;
@@ -133,7 +133,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(570, 339);
             this.Controls.Add(this.btnGestionVehiculos);
             this.Controls.Add(this.btnGestionOperarios);
             this.Controls.Add(this.btnSalir);

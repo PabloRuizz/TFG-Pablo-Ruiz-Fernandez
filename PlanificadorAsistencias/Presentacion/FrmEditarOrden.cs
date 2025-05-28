@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Modelo;
+using static Presentacion.CustomUI;
+
 
 namespace Presentacion
 {
@@ -18,6 +20,7 @@ namespace Presentacion
         public FrmEditarOrden(OrdenTrabajo orden)
         {
             InitializeComponent();
+            CustomUI.LoadDefaultStyle(this);
             this.orden = orden;
         }
 

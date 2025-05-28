@@ -38,7 +38,7 @@
             // 
             // txtMatricula
             // 
-            this.txtMatricula.Location = new System.Drawing.Point(153, 56);
+            this.txtMatricula.Location = new System.Drawing.Point(128, 56);
             this.txtMatricula.Name = "txtMatricula";
             this.txtMatricula.Size = new System.Drawing.Size(100, 20);
             this.txtMatricula.TabIndex = 0;
@@ -50,14 +50,14 @@
             "Coche",
             "Furgoneta pequeña",
             "Furgoneta grande"});
-            this.cmbTipo.Location = new System.Drawing.Point(153, 100);
+            this.cmbTipo.Location = new System.Drawing.Point(128, 100);
             this.cmbTipo.Name = "cmbTipo";
             this.cmbTipo.Size = new System.Drawing.Size(121, 21);
             this.cmbTipo.TabIndex = 1;
             // 
             // nudCapacidad
             // 
-            this.nudCapacidad.Location = new System.Drawing.Point(153, 148);
+            this.nudCapacidad.Location = new System.Drawing.Point(128, 148);
             this.nudCapacidad.Maximum = new decimal(new int[] {
             5,
             0,
@@ -80,7 +80,7 @@
             // chkDisponible
             // 
             this.chkDisponible.AutoSize = true;
-            this.chkDisponible.Location = new System.Drawing.Point(153, 203);
+            this.chkDisponible.Location = new System.Drawing.Point(128, 203);
             this.chkDisponible.Name = "chkDisponible";
             this.chkDisponible.Size = new System.Drawing.Size(75, 17);
             this.chkDisponible.TabIndex = 3;
@@ -89,7 +89,7 @@
             // 
             // btnGuardar
             // 
-            this.btnGuardar.Location = new System.Drawing.Point(153, 252);
+            this.btnGuardar.Location = new System.Drawing.Point(128, 252);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(75, 23);
             this.btnGuardar.TabIndex = 4;
@@ -101,7 +101,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(382, 350);
             this.Controls.Add(this.btnGuardar);
             this.Controls.Add(this.chkDisponible);
             this.Controls.Add(this.nudCapacidad);

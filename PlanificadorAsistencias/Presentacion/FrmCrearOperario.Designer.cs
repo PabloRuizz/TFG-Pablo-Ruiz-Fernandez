@@ -42,7 +42,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(303, 55);
+            this.label1.Location = new System.Drawing.Point(141, 56);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(44, 13);
             this.label1.TabIndex = 0;
@@ -50,7 +50,7 @@
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(290, 79);
+            this.txtNombre.Location = new System.Drawing.Point(128, 80);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(100, 20);
             this.txtNombre.TabIndex = 1;
@@ -61,7 +61,7 @@
             this.groupBox1.Controls.Add(this.chkIntalaciones);
             this.groupBox1.Controls.Add(this.chkImpresion);
             this.groupBox1.Controls.Add(this.chkImagen);
-            this.groupBox1.Location = new System.Drawing.Point(290, 137);
+            this.groupBox1.Location = new System.Drawing.Point(128, 138);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(200, 126);
             this.groupBox1.TabIndex = 2;
@@ -110,7 +110,7 @@
             // 
             // btnGuardar
             // 
-            this.btnGuardar.Location = new System.Drawing.Point(337, 285);
+            this.btnGuardar.Location = new System.Drawing.Point(175, 286);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(83, 23);
             this.btnGuardar.TabIndex = 3;
@@ -122,7 +122,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(447, 404);
             this.Controls.Add(this.btnGuardar);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.txtNombre);

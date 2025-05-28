@@ -9,6 +9,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static Presentacion.CustomUI;
+
 
 namespace Presentacion
 {
@@ -19,6 +21,7 @@ namespace Presentacion
         public FrmCrearOperario(ControladorOperario controlador)
         {
             InitializeComponent();
+            CustomUI.LoadDefaultStyle(this);
             this.controlador = controlador;
         }
 

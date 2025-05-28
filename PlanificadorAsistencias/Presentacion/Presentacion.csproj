@@ -47,17 +47,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CustomUI.cs" />
     <Compile Include="FmrGenerarPlanificacion.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FmrGenerarPlanificacion.Designer.cs">
       <DependentUpon>FmrGenerarPlanificacion.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="FrmEditarOrden.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="FrmEditarOrden.Designer.cs">
+      <DependentUpon>FrmEditarOrden.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmEditarAsignaciones.cs">
       <SubType>Form</SubType>
@@ -130,8 +131,8 @@
     <EmbeddedResource Include="FmrGenerarPlanificacion.resx">
       <DependentUpon>FmrGenerarPlanificacion.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="FrmEditarOrden.resx">
+      <DependentUpon>FrmEditarOrden.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmEditarAsignaciones.resx">
       <DependentUpon>FrmEditarAsignaciones.cs</DependentUpon>

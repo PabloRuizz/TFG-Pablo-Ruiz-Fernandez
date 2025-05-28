@@ -8,6 +8,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static Presentacion.CustomUI;
+
 
 namespace Presentacion
 {
@@ -21,6 +23,7 @@ namespace Presentacion
         public FrmPrincipal()
         {
             InitializeComponent();
+            CustomUI.LoadDefaultStyle(this);
 
             controladorOperario = new ControladorOperario();
             controladorVehiculo = new ControladorVehiculo();

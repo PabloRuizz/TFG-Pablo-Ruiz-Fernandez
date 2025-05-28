@@ -9,6 +9,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Modelo;
 using LogicaNegocio;
+using static Presentacion.CustomUI;
+
 
 namespace Presentacion
 {
@@ -24,6 +26,7 @@ namespace Presentacion
         public FrmEditarAsignaciones(ControladorAsignaciones ca, ControladorOperario co, ControladorVehiculo cv)
         {
             InitializeComponent();
+            CustomUI.LoadDefaultStyle(this);
             controladorAsignaciones = ca;
             controladorOperario = co;
             controladorVehiculo = cv;

@@ -10,7 +10,7 @@ using System.Windows.Forms;
 using LogicaNegocio;
 using Modelo;
 using Microsoft.VisualBasic;
-
+using static Presentacion.CustomUI;
 
 namespace Presentacion
 {
@@ -22,6 +22,7 @@ namespace Presentacion
         public FrmVerOrdenes(ControladorOrdenes controlador)
         {
             InitializeComponent();
+            LoadDefaultStyle(this);
             this.controlador = controlador;
         }
 

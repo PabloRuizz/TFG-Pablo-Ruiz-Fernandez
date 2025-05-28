@@ -41,7 +41,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(174, 48);
+            this.label1.Location = new System.Drawing.Point(119, 48);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(50, 13);
             this.label1.TabIndex = 0;
@@ -49,7 +49,7 @@
             // 
             // txtMatricula
             // 
-            this.txtMatricula.Location = new System.Drawing.Point(177, 76);
+            this.txtMatricula.Location = new System.Drawing.Point(122, 76);
             this.txtMatricula.Name = "txtMatricula";
             this.txtMatricula.Size = new System.Drawing.Size(100, 20);
             this.txtMatricula.TabIndex = 1;
@@ -57,7 +57,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(174, 123);
+            this.label2.Location = new System.Drawing.Point(119, 123);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(88, 13);
             this.label2.TabIndex = 2;
@@ -70,7 +70,7 @@
             "Coche",
             "Furgoneta pequeña",
             "Furgoneta grande"});
-            this.cmbTipo.Location = new System.Drawing.Point(177, 154);
+            this.cmbTipo.Location = new System.Drawing.Point(122, 154);
             this.cmbTipo.Name = "cmbTipo";
             this.cmbTipo.Size = new System.Drawing.Size(121, 21);
             this.cmbTipo.TabIndex = 3;
@@ -78,7 +78,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(174, 210);
+            this.label3.Location = new System.Drawing.Point(119, 210);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(58, 13);
             this.label3.TabIndex = 4;
@@ -86,7 +86,7 @@
             // 
             // nudCapacidad
             // 
-            this.nudCapacidad.Location = new System.Drawing.Point(178, 239);
+            this.nudCapacidad.Location = new System.Drawing.Point(123, 239);
             this.nudCapacidad.Maximum = new decimal(new int[] {
             5,
             0,
@@ -108,7 +108,7 @@
             // 
             // btnGuardar
             // 
-            this.btnGuardar.Location = new System.Drawing.Point(220, 299);
+            this.btnGuardar.Location = new System.Drawing.Point(165, 299);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(104, 23);
             this.btnGuardar.TabIndex = 6;
@@ -120,7 +120,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(391, 391);
             this.Controls.Add(this.btnGuardar);
             this.Controls.Add(this.nudCapacidad);
             this.Controls.Add(this.label3);
