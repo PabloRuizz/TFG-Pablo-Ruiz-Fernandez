@@ -18,6 +18,17 @@ namespace Presentacion
     {
         private ControladorOperario controlador;
 
+        private void FrmCrearOperario_Load(object sender, EventArgs e)
+        {
+            clbZonas.Items.AddRange(new string[]
+            {
+        "Centro",
+        "Sur",
+        "Este",
+        "Oeste"
+            });
+        }
+
         public FrmCrearOperario(ControladorOperario controlador)
         {
             InitializeComponent();
@@ -42,11 +53,22 @@ namespace Presentacion
                 return;
             }
 
+            List<Zona> zonas = new List<Zona>();
+
+            foreach (var item in clbZonas.CheckedItems)
+            {
+                if (Enum.TryParse(item.ToString(), out Zona zona))
+                {
+                    zonas.Add(zona);
+                }
+            }
+
             Operario nuevo = new Operario
             {
                 Nombre = nombre,
                 Disponible = true,
-                Habilidades = habilidades
+                Habilidades = habilidades,
+                ZonasAsignadas = zonas
             };
 
 

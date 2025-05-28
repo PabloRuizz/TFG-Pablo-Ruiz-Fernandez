@@ -29,6 +29,22 @@ namespace Presentacion
         {
             txtNombre.Text = operario.Nombre;
 
+            clbZonas.Items.AddRange(new string[]
+            {
+                "Centro",
+                "Sur",
+                "Este",
+                "Oeste"
+            });
+            foreach (Zona zona in operario.ZonasAsignadas)
+            {
+                int index = clbZonas.Items.IndexOf(zona.ToString());
+                if (index >= 0)
+                {
+                    clbZonas.SetItemChecked(index, true);
+                }
+            }
+
             chkImagen.Checked = operario.Habilidades.Contains("Imagen");
             chkImpresion.Checked = operario.Habilidades.Contains("Impresión");
             chkInstalaciones.Checked = operario.Habilidades.Contains("Instalaciones");
@@ -43,6 +59,19 @@ namespace Presentacion
                 MessageBox.Show("El nombre no puede estar vacío.");
                 return;
             }
+
+            List<Zona> zonasSeleccionadas = new List<Zona>();
+
+            foreach (var item in clbZonas.CheckedItems)
+            {
+                if (Enum.TryParse(item.ToString(), out Zona zona))
+                {
+                    zonasSeleccionadas.Add(zona);
+                }
+            }
+
+            operario.ZonasAsignadas = zonasSeleccionadas;
+
 
             operario.Nombre = nombre;
 

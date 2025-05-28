@@ -41,7 +41,8 @@ namespace Presentacion
                 o.Id,
                 o.Nombre,
                 Disponible = o.Disponible ? "Sí" : "No",
-                Habilidades = string.Join(", ", o.Habilidades)
+                Habilidades = string.Join(", ", o.Habilidades),
+                Zonas = string.Join(", ", o.ZonasAsignadas),
             }).ToList();
         }
 

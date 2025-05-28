@@ -28,7 +28,7 @@ namespace Presentacion
         {
             txtDireccion.Text = orden.Direccion;
             txtCodigoPostal.Text = orden.CodigoPostal;
-            cmbDispositivo.Items.AddRange(new string[] { "Imagen", "Informática", "Impresión", "Instalación" });
+            cmbDispositivo.Items.AddRange(new string[] { "Imagen", "Informática", "Impresión", "Instalaciones" });
             cmbDispositivo.SelectedItem = orden.TipoDispositivo;
             txtEstado.Text = orden.Estado;
             txtObservaciones.Text = orden.Observaciones;

@@ -48,6 +48,7 @@
     <Compile Include="Operario.cs" />
     <Compile Include="RutaOptima.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Zona.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

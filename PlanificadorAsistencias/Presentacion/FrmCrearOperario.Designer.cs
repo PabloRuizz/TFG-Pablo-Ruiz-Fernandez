@@ -36,13 +36,14 @@
             this.chkImpresion = new System.Windows.Forms.CheckBox();
             this.chkImagen = new System.Windows.Forms.CheckBox();
             this.btnGuardar = new System.Windows.Forms.Button();
+            this.clbZonas = new System.Windows.Forms.CheckedListBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(141, 56);
+            this.label1.Location = new System.Drawing.Point(141, 34);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(44, 13);
             this.label1.TabIndex = 0;
@@ -50,7 +51,7 @@
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(128, 80);
+            this.txtNombre.Location = new System.Drawing.Point(128, 58);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(100, 20);
             this.txtNombre.TabIndex = 1;
@@ -61,9 +62,9 @@
             this.groupBox1.Controls.Add(this.chkIntalaciones);
             this.groupBox1.Controls.Add(this.chkImpresion);
             this.groupBox1.Controls.Add(this.chkImagen);
-            this.groupBox1.Location = new System.Drawing.Point(128, 138);
+            this.groupBox1.Location = new System.Drawing.Point(128, 96);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(200, 126);
+            this.groupBox1.Size = new System.Drawing.Size(200, 115);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Habilidades";
@@ -110,7 +111,7 @@
             // 
             // btnGuardar
             // 
-            this.btnGuardar.Location = new System.Drawing.Point(175, 286);
+            this.btnGuardar.Location = new System.Drawing.Point(177, 349);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(83, 23);
             this.btnGuardar.TabIndex = 3;
@@ -118,17 +119,27 @@
             this.btnGuardar.UseVisualStyleBackColor = true;
             this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
+            // clbZonas
+            // 
+            this.clbZonas.FormattingEnabled = true;
+            this.clbZonas.Location = new System.Drawing.Point(134, 226);
+            this.clbZonas.Name = "clbZonas";
+            this.clbZonas.Size = new System.Drawing.Size(120, 94);
+            this.clbZonas.TabIndex = 4;
+            // 
             // FrmCrearOperario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(447, 404);
+            this.Controls.Add(this.clbZonas);
             this.Controls.Add(this.btnGuardar);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.label1);
             this.Name = "FrmCrearOperario";
             this.Text = "Form2";
+            this.Load += new System.EventHandler(this.FrmCrearOperario_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
@@ -146,5 +157,6 @@
         private System.Windows.Forms.CheckBox chkIntalaciones;
         private System.Windows.Forms.CheckBox chkImpresion;
         private System.Windows.Forms.Button btnGuardar;
+        private System.Windows.Forms.CheckedListBox clbZonas;
     }
 }

@@ -39,22 +39,41 @@ namespace Presentacion
             var operarios = controladorOperario.ObtenerOperarios();
             var asignaciones = controladorAsignaciones.ObtenerTodas();
 
-            var rutas = planificador.GenerarPlanning(ordenes, operarios, asignaciones);
+            int maxPorOperario = 3; // puedes cambiarlo o hacerlo configurable
+            var rutas = planificador.GenerarPlanning(ordenes, operarios, asignaciones, maxPorOperario);
 
             lstResultados.Items.Clear();
 
             foreach (var ruta in rutas)
             {
-                lstResultados.Items.Add($"👷 Operario: {ruta.Operario.Nombre}");
+                lstResultados.Items.Add($"👷 Operario: {ruta.Operario.Nombre} ({ruta.OrdenesAsignadas.Count} órdenes)");
                 foreach (var orden in ruta.OrdenesAsignadas)
                 {
                     lstResultados.Items.Add($"   → #{orden.NumeroOrden} | {orden.TipoDispositivo} | {orden.CodigoPostal}");
                 }
-                lstResultados.Items.Add(""); // espacio entre bloques
+                lstResultados.Items.Add(""); // espacio entre operarios
             }
 
             if (!rutas.Any())
+            {
                 MessageBox.Show("No se ha podido generar planificación con los datos actuales.");
+            }
+            else
+            {
+                MessageBox.Show("Planning generado correctamente.");
+            }
+
+
+            
+            var asignadas = rutas.SelectMany(r => r.OrdenesAsignadas).ToList();
+            var noAsignadas = ordenes.Where(o => o.Estado == "Pendiente" && !asignadas.Contains(o)).ToList();
+
+            lstNoAsignadas.Items.Clear();
+            foreach (var orden in noAsignadas)
+            {
+                lstNoAsignadas.Items.Add($"❌ #{orden.NumeroOrden} - {orden.TipoDispositivo} - {orden.CodigoPostal}");
+            }
+            
         }
 
         private void btnCerrar_Click(object sender, EventArgs e)

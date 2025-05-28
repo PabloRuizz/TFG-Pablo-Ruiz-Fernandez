@@ -13,6 +13,7 @@ namespace Modelo
         public string Nombre { get; set; }
         public bool Disponible { get; set; }
         public List<string> Habilidades { get; set; } = new List<string>();
+        public List<Zona> ZonasAsignadas { get; set; } = new List<Zona>();
         public Vehiculo VehiculoAsignado { get; set; }
 
     }
