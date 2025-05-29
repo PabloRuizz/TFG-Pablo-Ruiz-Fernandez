@@ -32,6 +32,7 @@
             this.btnGenerar = new System.Windows.Forms.Button();
             this.lstResultados = new System.Windows.Forms.ListBox();
             this.lstNoAsignadas = new System.Windows.Forms.ListBox();
+            this.btnExportarCSV = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtResultado
@@ -70,11 +71,22 @@
             this.lstNoAsignadas.Size = new System.Drawing.Size(342, 316);
             this.lstNoAsignadas.TabIndex = 3;
             // 
+            // btnExportarCSV
+            // 
+            this.btnExportarCSV.Location = new System.Drawing.Point(414, 64);
+            this.btnExportarCSV.Name = "btnExportarCSV";
+            this.btnExportarCSV.Size = new System.Drawing.Size(75, 23);
+            this.btnExportarCSV.TabIndex = 4;
+            this.btnExportarCSV.Text = "Exportar CSV";
+            this.btnExportarCSV.UseVisualStyleBackColor = true;
+            this.btnExportarCSV.Click += new System.EventHandler(this.btnExportarCSV_Click);
+            // 
             // FrmGenerarPlanificador
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(690, 450);
+            this.Controls.Add(this.btnExportarCSV);
             this.Controls.Add(this.lstNoAsignadas);
             this.Controls.Add(this.lstResultados);
             this.Controls.Add(this.btnGenerar);
@@ -93,5 +105,6 @@
         private System.Windows.Forms.Button btnGenerar;
         private System.Windows.Forms.ListBox lstResultados;
         private System.Windows.Forms.ListBox lstNoAsignadas;
+        private System.Windows.Forms.Button btnExportarCSV;
     }
 }

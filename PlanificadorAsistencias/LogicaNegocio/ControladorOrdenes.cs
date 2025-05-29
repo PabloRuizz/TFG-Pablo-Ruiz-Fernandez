@@ -24,10 +24,15 @@ namespace LogicaNegocio
             if (NumeroOrdenExiste(nueva.NumeroOrden))
                 throw new System.InvalidOperationException("El número de orden ya existe.");
 
-            nueva.Id = listaOrdenes.Count + 1;
+            // ✔️ Evita duplicados aunque haya huecos por eliminaciones
+            nueva.Id = listaOrdenes.Any()
+                ? listaOrdenes.Max(o => o.Id) + 1
+                : 1;
+
             listaOrdenes.Add(nueva);
             Guardar();
         }
+
 
         public void Guardar()
         {
