@@ -13,7 +13,7 @@ namespace LogicaNegocio
         {
             if (!int.TryParse(codigoPostal, out int cp)) return Zona.Desconocida;
 
-            if ((cp >= 39000 && cp <= 39099) || (cp >= 39600 && cp <= 39619))
+            if ((cp >= 39000 && cp <= 39129) || (cp >= 39600 && cp <= 39619))
                 return Zona.Centro;
 
             if ((cp >= 39620 && cp <= 39699) || (cp >= 39200 && cp <= 39299))

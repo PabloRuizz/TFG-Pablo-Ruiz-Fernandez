@@ -10,5 +10,6 @@ public class RutaOptima
 {
     public Operario Operario { get; set; }
     public List<OrdenTrabajo> OrdenesAsignadas { get; set; } = new List<OrdenTrabajo>();
-    public float DistanciaTotal { get; set; } // opcional
+    public double DistanciaTotalKm { get; set; }  // Distancia total en kilómetros
+
 }

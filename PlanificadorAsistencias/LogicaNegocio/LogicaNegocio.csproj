@@ -41,6 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CalculadorDistancias.cs" />
+    <Compile Include="GestorCoordenadas.cs" />
     <Compile Include="ControladorAsignaciones.cs" />
     <Compile Include="Planificador.cs" />
     <Compile Include="ControladorOperario.cs" />
