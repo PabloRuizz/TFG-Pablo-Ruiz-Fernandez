@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmEditarOperario));
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.chkImagen = new System.Windows.Forms.CheckBox();
             this.chkImpresion = new System.Windows.Forms.CheckBox();
@@ -86,11 +87,12 @@
             // 
             // btnGuardar
             // 
+            this.btnGuardar.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnGuardar.Location = new System.Drawing.Point(122, 307);
             this.btnGuardar.Name = "btnGuardar";
-            this.btnGuardar.Size = new System.Drawing.Size(104, 23);
+            this.btnGuardar.Size = new System.Drawing.Size(111, 23);
             this.btnGuardar.TabIndex = 5;
-            this.btnGuardar.Text = "Guardar cambios";
+            this.btnGuardar.Text = "Guardar ";
             this.btnGuardar.UseVisualStyleBackColor = true;
             this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
@@ -114,8 +116,9 @@
             this.Controls.Add(this.chkImpresion);
             this.Controls.Add(this.chkImagen);
             this.Controls.Add(this.txtNombre);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmEditarOperario";
-            this.Text = "FrmEditarOperario";
+            this.Text = "Editar operario";
             this.Load += new System.EventHandler(this.FrmEditarOperario_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

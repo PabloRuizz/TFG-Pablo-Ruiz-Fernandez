@@ -84,7 +84,14 @@ namespace Presentacion
             this.Close();
         }
 
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
 
+        }
 
+        private void FrmPrincipal_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

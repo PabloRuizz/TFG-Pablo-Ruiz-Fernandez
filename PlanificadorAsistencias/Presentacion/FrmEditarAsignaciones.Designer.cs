@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmEditarAsignaciones));
             this.cmbOperarios = new System.Windows.Forms.ComboBox();
             this.cmbVehiculos = new System.Windows.Forms.ComboBox();
             this.btnActualizar = new System.Windows.Forms.Button();
@@ -91,8 +92,9 @@
             this.Controls.Add(this.btnActualizar);
             this.Controls.Add(this.cmbVehiculos);
             this.Controls.Add(this.cmbOperarios);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmEditarAsignaciones";
-            this.Text = "FrmEditarAsignaciones";
+            this.Text = "Editar asignaciones";
             this.Load += new System.EventHandler(this.FrmEditarAsignaciones_Load);
             this.ResumeLayout(false);
 

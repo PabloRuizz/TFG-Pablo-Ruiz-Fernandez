@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmCrearVehiculo));
             this.label1 = new System.Windows.Forms.Label();
             this.txtMatricula = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -108,7 +109,7 @@
             // 
             // btnGuardar
             // 
-            this.btnGuardar.Location = new System.Drawing.Point(165, 299);
+            this.btnGuardar.Location = new System.Drawing.Point(123, 305);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(104, 23);
             this.btnGuardar.TabIndex = 6;
@@ -128,8 +129,9 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtMatricula);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmCrearVehiculo";
-            this.Text = "Form3";
+            this.Text = "Crear vehículo";
             ((System.ComponentModel.ISupportInitialize)(this.nudCapacidad)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

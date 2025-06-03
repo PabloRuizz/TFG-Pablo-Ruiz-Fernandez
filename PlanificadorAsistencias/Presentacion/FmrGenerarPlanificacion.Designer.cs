@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmGenerarPlanificador));
             this.txtResultado = new System.Windows.Forms.TextBox();
             this.btnGenerar = new System.Windows.Forms.Button();
             this.lstResultados = new System.Windows.Forms.ListBox();
@@ -51,7 +52,7 @@
             this.btnGenerar.Name = "btnGenerar";
             this.btnGenerar.Size = new System.Drawing.Size(184, 23);
             this.btnGenerar.TabIndex = 1;
-            this.btnGenerar.Text = "Botón para ejecutar planificación";
+            this.btnGenerar.Text = "Ejecutar planificación";
             this.btnGenerar.UseVisualStyleBackColor = true;
             this.btnGenerar.Click += new System.EventHandler(this.btnGenerar_Click);
             // 
@@ -91,8 +92,9 @@
             this.Controls.Add(this.lstResultados);
             this.Controls.Add(this.btnGenerar);
             this.Controls.Add(this.txtResultado);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmGenerarPlanificador";
-            this.Text = "Form6";
+            this.Text = "Visualizar planificación";
             this.Load += new System.EventHandler(this.FrmGenerarPlanificador_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

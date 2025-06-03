@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmRegistrarOrdenes));
             this.label1 = new System.Windows.Forms.Label();
             this.txtCliente = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -206,8 +207,9 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtCliente);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmRegistrarOrdenes";
-            this.Text = "Form4";
+            this.Text = "Crear orden de trabajo";
             this.ResumeLayout(false);
             this.PerformLayout();
 

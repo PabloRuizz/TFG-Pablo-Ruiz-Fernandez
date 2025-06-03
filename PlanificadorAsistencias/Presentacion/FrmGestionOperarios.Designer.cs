@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmGestionOperarios));
             this.dgvOperarios = new System.Windows.Forms.DataGridView();
             this.btnEditar = new System.Windows.Forms.Button();
             this.btnEliminar = new System.Windows.Forms.Button();
@@ -83,8 +84,9 @@
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnEditar);
             this.Controls.Add(this.dgvOperarios);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmGestionOperarios";
-            this.Text = "Form1";
+            this.Text = "Gestión de operarios";
             this.Load += new System.EventHandler(this.FrmGestionOperarios_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvOperarios)).EndInit();
             this.ResumeLayout(false);

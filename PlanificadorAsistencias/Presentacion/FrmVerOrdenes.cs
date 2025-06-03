@@ -49,7 +49,7 @@ namespace Presentacion
             }).ToList();
         }
 
-        private void txtBuscar_TextChanged(object sender, EventArgs e)
+        /*private void txtBuscar_TextChanged(object sender, EventArgs e)
         {
             string filtro = txtBuscar.Text.ToLower();
 
@@ -70,7 +70,7 @@ namespace Presentacion
                 o.Estado,
                 o.CodigoPostal
             }).ToList();
-        }
+        }*/
 
         private void btnEliminar_Click(object sender, EventArgs e)
         {

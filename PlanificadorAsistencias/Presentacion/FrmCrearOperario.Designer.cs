@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmCrearOperario));
             this.label1 = new System.Windows.Forms.Label();
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -137,8 +138,9 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmCrearOperario";
-            this.Text = "Form2";
+            this.Text = "Crear operario";
             this.Load += new System.EventHandler(this.FrmCrearOperario_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
