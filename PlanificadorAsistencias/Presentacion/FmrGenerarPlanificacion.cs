@@ -47,7 +47,7 @@ namespace Presentacion
             var operarios = controladorOperario.ObtenerOperarios();
             var asignaciones = controladorAsignaciones.ObtenerTodas();
 
-            int maxPorOperario = 4; // puedes cambiarlo o hacerlo configurable
+            int maxPorOperario = (int)nudMaxOrdenes.Value;
             rutasPlanificadas = planificador.GenerarPlanning(ordenes, operarios, asignaciones, maxPorOperario);
 
             //var rutas = planificador.GenerarPlanning(ordenes, operarios, asignaciones, maxPorOperario);
