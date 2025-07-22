@@ -31,3 +31,8 @@ El diagrama de clases que representa visualmente las relaciones dentro del siste
 En el diagrama de colaboración para el caso de uso de "Generar planificación podemos entender mejor como se relacionan las clases para cumplir una de las funcionalidades clave. <br>
 
 <img width="874" height="432" alt="Diagrama de colaboración Generar Planning" src="https://github.com/user-attachments/assets/546d07bb-a4a1-4948-a254-8714e5738d6a" /> <br>
+
+Con los diagramas detallados de los casos de uso podemos ver la profundidad en el análisis de las tareas. <br>
+
+<img width="651" height="536" alt="Especificación de caso de uso crear operario" src="https://github.com/user-attachments/assets/d7cfac25-4104-4112-bb85-f8bdf4c740c3" />
+<img width="656" height="702" alt="Especificación caso de uso crear orden de trabajo" src="https://github.com/user-attachments/assets/b1275a69-9f19-4b52-be6f-9391d77a9400" />
