@@ -10,7 +10,6 @@ Coordenadas por Códigos Postales de Cantabria
 Este proyecto surge ante la necesidad de organizar de forma eficiente la planificación de los operarios y recursos para realizar las diferentes labores fuera de nuestras instalaciones.
 
 <img width="383" height="277" alt="Foto laboratorio infortec" src="https://github.com/user-attachments/assets/e50dfd2a-e028-4220-8f09-b453a0946b16" />  
-
 <img width="312" height="299" alt="Foto furgo infortec" src="https://github.com/user-attachments/assets/a6e9ff05-8dbf-4f6d-b9bd-a4b87c8f5655" /> <br>
 
 A la hora de preparar el planning de trabajo de los técnicos que se encuentran fuera de las instalaciones el director técnico de la empresa se encuentra con una labor tediosa que en este proyecto he automatizado. <br>
@@ -33,6 +32,10 @@ En el diagrama de colaboración para el caso de uso de "Generar planificación p
 <img width="874" height="432" alt="Diagrama de colaboración Generar Planning" src="https://github.com/user-attachments/assets/546d07bb-a4a1-4948-a254-8714e5738d6a" /> <br>
 
 Con los diagramas detallados de los casos de uso podemos ver la profundidad en el análisis de las tareas. <br>
+<img width="656" height="661" alt="Especificación caso de uso crear orden de trabajo" src="https://github.com/user-attachments/assets/9074c62d-e43e-4d23-bce0-60b46e100271" /> <br>
+<img width="666" height="655" alt="Especificación caso de uso generar planificación" src="https://github.com/user-attachments/assets/32c2dbd6-35ee-4860-8828-421a22b636dc" /> <br>
 
-<img width="651" height="536" alt="Especificación de caso de uso crear operario" src="https://github.com/user-attachments/assets/d7cfac25-4104-4112-bb85-f8bdf4c740c3" />
-<img width="656" height="702" alt="Especificación caso de uso crear orden de trabajo" src="https://github.com/user-attachments/assets/b1275a69-9f19-4b52-be6f-9391d77a9400" />
+Por ultimo para reforzar cómo se organiza la interfaz y ver claramente como el usuario puede navegar a traves del sistema, el diagrama de vistas.  <br>
+
+<img width="584" height="692" alt="vista" src="https://github.com/user-attachments/assets/3caa111b-97f4-4cbd-bb99-a70e65bd9e66" />
+
