@@ -8,4 +8,6 @@ Coordenadas por Códigos Postales de Cantabria
 
 ## Presentación
 
-<img width="404" height="170" alt="Casos de uso planning" src="https://github.com/user-attachments/assets/9ac782af-877b-40d2-8f1c-1b4ed82d5a68" />
+<img width="383" height="277" alt="Foto laboratorio infortec" src="https://github.com/user-attachments/assets/e50dfd2a-e028-4220-8f09-b453a0946b16" />
+
+<img width="312" height="299" alt="Foto furgo infortec" src="https://github.com/user-attachments/assets/a6e9ff05-8dbf-4f6d-b9bd-a4b87c8f5655" />
