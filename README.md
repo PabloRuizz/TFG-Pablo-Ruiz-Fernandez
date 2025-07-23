@@ -7,7 +7,7 @@ Coordenadas por Códigos Postales de Cantabria
 [CodigosPostalesCantabria.csv](https://github.com/user-attachments/files/20708942/CodigosPostalesCantabria.csv)
 
 ## Presentación
-Este proyecto surge ante la necesidad de organizar de forma eficiente la planificación de los operarios y recursos para realizar las diferentes labores fuera de nuestras instalaciones.
+Este proyecto surge ante la necesidad de organizar de forma eficiente la planificación de los operarios y recursos para realizar las diferentes labores fuera de nuestras instalaciones. <br>
 
 <img width="383" height="277" alt="Foto laboratorio infortec" src="https://github.com/user-attachments/assets/e50dfd2a-e028-4220-8f09-b453a0946b16" />  
 <img width="312" height="299" alt="Foto furgo infortec" src="https://github.com/user-attachments/assets/a6e9ff05-8dbf-4f6d-b9bd-a4b87c8f5655" /> <br>
@@ -48,8 +48,8 @@ Por ultimo para reforzar cómo se organiza la interfaz y ver claramente como el 
 <img width="584" height="692" alt="vista" src="https://github.com/user-attachments/assets/3caa111b-97f4-4cbd-bb99-a70e65bd9e66" /> <br>
 
 Video demostración del proyecto: <br>
-https://www.youtube.com/watch?v=1sMzqhrgqNs&t=47s <br>
-
+https://www.youtube.com/watch?v=1sMzqhrgqNs&t=47s <br> <br>
+Conclusión: <br>
 El desarrollo ha cumplido todos los objetivos planteados. El sistema facilita de forma intuitiva la planificación técnica, y se ha construido de forma que puede escalar fácilmente a nuevas funcionalidades.<br>
 Este proyecto no solo cumple su propósito técnico, sino que también ha sido una gran experiencia de desarrollo profesional, integrando todo lo aprendido durante el grado y ofreciendo una base sólida para futuras mejoras o despliegues reales. <br>
 
