@@ -16,11 +16,12 @@ A la hora de preparar el planning de trabajo de los técnicos que se encuentran 
 
 <img width="425" height="261" alt="Foto mapa cantabria" src="https://github.com/user-attachments/assets/4eed827e-88f9-49bf-8736-dd2d93dc3b49" /> <img width="328" height="284" alt="Foto director técnico" src="https://github.com/user-attachments/assets/8b79bf9b-635e-468f-8689-e30a95edeaf1" /> <br>
 
-OE1 – Requisitos: Identificar las funcionalidades esenciales del sistema y los actores implicados (como el Director Técnico). <br>
+Objetivos: 
+  Requisitos <br>
 
-OE2 – Análisis y Diseño: Modelar las entidades principales del sistema, sus relaciones, y preparar la arquitectura de tres capas: modelo, lógica de negocio y presentación. <br>
+  Análisis y Diseño <br>
 
-OE3 – Desarrollo: Implementar la solución final, garantizando persistencia de datos, planificación óptima y exportación de resultados. <br>  
+  Desarrollo <br>  
 
 <img width="1536" height="457" alt="Foto de objetivos para presentación" src="https://github.com/user-attachments/assets/45771ff1-d574-46f8-8abf-05e0430ad133" /> <br>  
 
