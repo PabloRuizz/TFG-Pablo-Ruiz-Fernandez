@@ -45,3 +45,7 @@ Por ultimo para reforzar cómo se organiza la interfaz y ver claramente como el 
 
 <img width="584" height="692" alt="vista" src="https://github.com/user-attachments/assets/3caa111b-97f4-4cbd-bb99-a70e65bd9e66" />
 
+El desarrollo ha cumplido todos los objetivos planteados. El sistema facilita de forma intuitiva la planificación técnica, y se ha construido de forma que puede escalar fácilmente a nuevas funcionalidades.<br>
+Este proyecto no solo cumple su propósito técnico, sino que también ha sido una gran experiencia de desarrollo profesional, integrando todo lo aprendido durante el grado y ofreciendo una base sólida para futuras mejoras o despliegues reales. <br>
+
+![Foto robot](https://github.com/user-attachments/assets/c1d3eef0-999e-4026-a94b-106c326fdb7b)
