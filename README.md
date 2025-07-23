@@ -14,9 +14,7 @@ Este proyecto surge ante la necesidad de organizar de forma eficiente la planifi
 
 A la hora de preparar el planning de trabajo de los técnicos que se encuentran fuera de las instalaciones el director técnico de la empresa se encuentra con una labor tediosa que en este proyecto he automatizado. <br>
 
-<img width="425" height="261" alt="Foto mapa cantabria" src="https://github.com/user-attachments/assets/4eed827e-88f9-49bf-8736-dd2d93dc3b49" />
-
-<img width="328" height="284" alt="Foto director técnico" src="https://github.com/user-attachments/assets/8b79bf9b-635e-468f-8689-e30a95edeaf1" /> <br>
+<img width="425" height="261" alt="Foto mapa cantabria" src="https://github.com/user-attachments/assets/4eed827e-88f9-49bf-8736-dd2d93dc3b49" /> <img width="328" height="284" alt="Foto director técnico" src="https://github.com/user-attachments/assets/8b79bf9b-635e-468f-8689-e30a95edeaf1" /> <br>
 
 Lo imprescindible en el desempeño de nuestra actividad y por tanto lo que debemos saber para comprender este proyecto es que existen Ordenes de trabajo, operarios, vehiculos. A su vez las ordenes de trabajo poseen la información fundamental de la "Localización" y "El tipo de dispositivo". Y por otro lado los operarios poseen las caracteristicas de "Habilidades" y "Zonas de operarción". <br>
 
