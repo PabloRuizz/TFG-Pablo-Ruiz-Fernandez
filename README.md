@@ -22,7 +22,8 @@ OE2 – Análisis y Diseño: Modelar las entidades principales del sistema, sus 
 
 OE3 – Desarrollo: Implementar la solución final, garantizando persistencia de datos, planificación óptima y exportación de resultados. <br>  
 
-<img width="1536" height="1024" alt="Foto de objetivos para presentación" src="https://github.com/user-attachments/assets/ebd831b8-bfa9-465d-8c54-f025a588c55b" /> <br>  
+<img width="1536" height="457" alt="Foto de objetivos para presentación" src="https://github.com/user-attachments/assets/45771ff1-d574-46f8-8abf-05e0430ad133" /> <br>  
+
 
 Lo imprescindible en el desempeño de nuestra actividad y por tanto lo que debemos saber para comprender este proyecto es que existen Ordenes de trabajo, operarios y vehiculos. A su vez las ordenes de trabajo poseen la información fundamental de la "Localización" y "El tipo de dispositivo". Y por otro lado los operarios poseen las caracteristicas de "Habilidades" y "Zonas de operarción". <br>
 
