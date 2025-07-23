@@ -16,7 +16,14 @@ A la hora de preparar el planning de trabajo de los técnicos que se encuentran 
 
 <img width="425" height="261" alt="Foto mapa cantabria" src="https://github.com/user-attachments/assets/4eed827e-88f9-49bf-8736-dd2d93dc3b49" /> <img width="328" height="284" alt="Foto director técnico" src="https://github.com/user-attachments/assets/8b79bf9b-635e-468f-8689-e30a95edeaf1" /> <br>
 
-Lo imprescindible en el desempeño de nuestra actividad y por tanto lo que debemos saber para comprender este proyecto es que existen Ordenes de trabajo, operarios, vehiculos. A su vez las ordenes de trabajo poseen la información fundamental de la "Localización" y "El tipo de dispositivo". Y por otro lado los operarios poseen las caracteristicas de "Habilidades" y "Zonas de operarción". <br>
+OE1 – Requisitos: Identificar las funcionalidades esenciales del sistema y los actores implicados (como el Director Técnico). <br>
+
+OE2 – Análisis y Diseño: Modelar las entidades principales del sistema, sus relaciones, y preparar la arquitectura de tres capas: modelo, lógica de negocio y presentación. <br>
+
+OE3 – Desarrollo: Implementar la solución final, garantizando persistencia de datos, planificación óptima y exportación de resultados. <br>  
+<img width="1536" height="1024" alt="Foto de objetivos para presentación" src="https://github.com/user-attachments/assets/dcf76894-9f4d-4eb0-89e6-bce6a01fc213" /> <br>  
+
+Lo imprescindible en el desempeño de nuestra actividad y por tanto lo que debemos saber para comprender este proyecto es que existen Ordenes de trabajo, operarios y vehiculos. A su vez las ordenes de trabajo poseen la información fundamental de la "Localización" y "El tipo de dispositivo". Y por otro lado los operarios poseen las caracteristicas de "Habilidades" y "Zonas de operarción". <br>
 
 Este diagrama de contexto resume visualmente qué puede hacer el usuario en el sistema. <br>
 
