@@ -31,7 +31,7 @@ El diagrama de clases que representa visualmente las relaciones dentro del siste
 
 <img width="384" height="385" alt="Modelo del dominio final" src="https://github.com/user-attachments/assets/98929779-9faf-42c9-8baf-843f51669e90" /> <br>
 
-En el diagrama de colaboración para el caso de uso de "Generar planificación podemos entender mejor como se relacionan las clases para cumplir una de las funcionalidades clave. <br>
+En el diagrama de colaboración para el caso de uso de "Generar planificación" podemos entender mejor como se relacionan las clases para cumplir una de las funcionalidades clave. <br>
 
 <img width="874" height="432" alt="Diagrama de colaboración Generar Planning" src="https://github.com/user-attachments/assets/546d07bb-a4a1-4948-a254-8714e5738d6a" /> <br>
 
